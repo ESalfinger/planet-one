@@ -1,6 +1,5 @@
 import React from 'react';
 import Backgound from './bg.jpg';
-import Video from './QuicktimeTest.mov';
 import { Player } from 'video-react';
 
 export function VideoTest() {  
