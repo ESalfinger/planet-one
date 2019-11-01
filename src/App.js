@@ -1,11 +1,13 @@
 import React from 'react';
 import { Demo } from './Demo';
+import { VideoTest } from './VideoTest';
+import './VideoTest.css'
 
 
 function App() {
   return (
     <div className="App">
-      <Demo/>
+      <VideoTest/>
     </div>
   );
 }
