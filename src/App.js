@@ -1,7 +1,6 @@
 import React from 'react';
-import { Demo } from './Demo';
 import { VideoTest } from './VideoTest';
-import './VideoTest.css'
+import "./App.css";
 
 
 function App() {
