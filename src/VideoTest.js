@@ -1,9 +1,14 @@
 import React from 'react';
+import './VideoTest.css';
+import Image from './bg.jpg';
 
 export function VideoTest() {
   return (
-    <video autoPlay loop>
+    <div>
+      <video autoPlay loop className = 'video'>
         <source src={require('./TransparentBG.webm')} />
-    </video>
+      </video>
+      <img src = {Image} className = 'background'></img>
+    </div>
   );
 };
