@@ -5,7 +5,7 @@ import Image from './bg.jpg';
 export function VideoTest() {
   return (
     <div>
-      <video autoPlay loop className = 'video'>
+      <video autoPlay loop className = 'video' muted>
         <source src={require('./TransparentBG.webm')} />
       </video>
       <img src = {Image} className = 'background'></img>
