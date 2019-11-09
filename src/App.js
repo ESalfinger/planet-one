@@ -1,12 +1,12 @@
 import React from 'react';
-import { VideoTest } from './VideoTest';
+import {Section} from './Section';
 import "./css/App.css";
 
 
 function App() {
   return (
     <div className="App">
-      <VideoTest/>
+      <Section title="testTitle" text="test" hasVideo={true} src="TransparentBG"/>
     </div>
   );
 }
