@@ -3,6 +3,11 @@ import {Video} from './Video';
 import "./css/Section.css";
 import text from './strings/Text.json';
 
+/*
+  Define Title via title attribute
+  Define Text via text attribute
+  If section has video set hasVideo to true and src to fileName without path and extension (has to be WEBM!!!)
+*/
 export function Section(props) {
 
   return (
