@@ -4,7 +4,7 @@ export function Video(props) {
   return (
     <div>
       <video autoPlay loop className = 'video' muted>
-        <source src={require('./' + props.src + '.webm')} />
+        <source src={require("./videos/" + props.src + '.webm')} />
       </video>
     </div>
   );
