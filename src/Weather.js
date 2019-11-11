@@ -41,7 +41,7 @@ export function Weather() {
         <p>Temp: {JSON.stringify(items.main.temp, null, 2)} °C</p>
         <p>Humidity: {JSON.stringify(items.main.humidity, null, 2)} %</p>
         <p>Wind: {JSON.stringify(items.wind.speed, null, 2)} km/h</p>
-        <p>Niederschlag: {items.rain ? JSON.stringify(items.rain["3h"], null, 2) : 0} mm</p>
+        {items.rain && <p>Niederschlag: {JSON.stringify(items.rain["1h"], null, 2) || JSON.stringify(items.rain["3h"], null, 2)} mm</p>}
       </div>
     );
   }
