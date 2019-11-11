@@ -14,7 +14,9 @@ export function Weather() {
   const [city, setCity] = useState();
 
   const fetchWeather = () => {
-    fetch('https://api.openweathermap.org/data/2.5/weather?APPID=07168488295cf3fc8b2b59bab9ac2b3d&units=metric&q=' + city)
+    let url = 'https://api.openweathermap.org/data/2.5/weather?APPID=07168488295cf3fc8b2b59bab9ac2b3d&units=metric&q=' + city;
+
+    fetch(url)
       .then(handleErrors)
       .then(res => res.json())
       .then(json => {
@@ -34,9 +36,6 @@ export function Weather() {
       </div>
     );
   } else {
-    console.log(items);
-
-
     return (
       <div>
         <p>Temp: {JSON.stringify(items.main.temp, null, 2)} °C</p>
