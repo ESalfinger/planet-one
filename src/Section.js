@@ -1,5 +1,6 @@
 import React from 'react';
 import {Video} from './Video';
+import {Button} from './Button';
 import "./css/Section.css";
 import text from './strings/Text.json';
 
@@ -15,6 +16,7 @@ export function Section(props) {
       <h1>{text[props.title]}</h1>
       <p>{text[props.text]}</p>
       {props.hasVideo && <Video src={props.src} />}
+      {props.hasButton && <Button action = {props.action} symbol = {props.symbol} className = {props.button} buttonText = {props.buttonText} />}
     </div>
   );
 }

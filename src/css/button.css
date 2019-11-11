@@ -1,0 +1,39 @@
+/*
+    Button stylings for every button
+*/
+
+
+/*
+    CTA Button styling
+*/
+
+.call-to-action {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.call-to-action .button-symbol {
+    padding-top: 16px;
+    padding-bottom: 8px;
+    position: relative;
+    animation: MoveUpDown 1s ease-in-out infinite;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 8px;
+    }
+}
+
+.call-to-action p {
+    padding: 8px;
+}
