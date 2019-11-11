@@ -12,9 +12,12 @@ function App() {
       <Section title="space-title" text="space-text" hasVideo={true} src="TransparentBG" className="space" />
       <Section title="ozone-title" text="ozone-text" hasVideo={false} className="ozone" />
       <Section title="air-title" text="air-text" hasVideo={false} className = "air"/>
-      <Section title="mountians-title" text="mountians-text" hasVideo={false} className = "mountians"/>
+      <Section title="mountians-title" text="mountians-text" hasVideo={false} className = "mountians" hasCards={true}/>
       <Section title="forests-title" text="forests-text" hasVideo={false} className="forests"/>
-      <Section title="animals-title" text="animals-text" hasVideo={false} className="animals"/>
+      <Section title="animals-title" text="animals-text" hasVideo={false} className="animals" hasCards={true}/>
+      <Section title="ice-title" text="ice-text" hasVideo={false} className="ice"/>
+      <Section title="plastic-title" text="plastic-text" hasVideo={false} className="plastic"/>
+      <Section title="fish-title" text="fish-text" hasVideo={false} className="fish"/>
     </div>
   );
 }
@@ -23,8 +26,6 @@ function scrollTo(target) {
   let element = document.getElementsByClassName(target)[0];
 
   element.scrollIntoView({behavior: "smooth", block: "end"});
-
-  console.log("called");
 }
 
 export default App;

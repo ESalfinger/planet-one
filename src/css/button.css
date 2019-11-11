@@ -2,6 +2,9 @@
     Button stylings for every button
 */
 
+.button:hover {
+    cursor: pointer;
+}
 
 /*
     CTA Button styling
