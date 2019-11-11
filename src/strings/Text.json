@@ -1,4 +1,6 @@
 {
+  "hero-title": "Hero",
+  "hero-text": "Hero Text",
   "testTitle": "TestTitle",
   "test": "This is a test string"
 }
