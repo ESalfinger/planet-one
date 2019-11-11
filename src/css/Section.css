@@ -4,8 +4,21 @@
     justify-content: flex-end;
     flex-direction: column;
     align-items: center;
+    background: rgb(85,30,175);
+    background: linear-gradient(180deg, rgba(85,30,175,1) 0%, rgba(75,33,175,1) 100%);
+}
+
+.space {
+    background: rgba(75,33,175,1);
+    background: linear-gradient(180deg, rgba(75,33,175,1) 0%, rgba(30,47,175,1) 100%);
 }
 
 .hero h1 {
     margin-bottom: 24px;
+    color: white;
+    font-family: 'Baloo Bhaijaan';
+}
+
+.hero p {
+    color: white;
 }

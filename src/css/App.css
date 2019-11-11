@@ -3,3 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'Baloo Bhaijaan';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./Fonts/Baloo_Bhaijaan/BalooBhaijaan-Regular.ttf') format('truetype');
+  }

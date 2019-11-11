@@ -2,5 +2,15 @@
   "hero-title": "Welcome to our fancy webpage",
   "hero-text": "This is a webpage about the climate",
   "space-title": "Space",
-  "space-text": "Space Text"
+  "space-text": "Space Text",
+  "ozone-title": "Ozone",
+  "ozone-text": "Ozone Text",
+  "air-title": "Air",
+  "air-text": "Air Text",
+  "mountians-title": "Mountians",
+  "mountians-text": "Mountians Text",
+  "forests-title": "Forests",
+  "forests-text": "Forests Text",
+  "animals-title": "Animals",
+  "animals-text": "Animals Text"
 }
