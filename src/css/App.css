@@ -9,4 +9,10 @@
     font-style: normal;
     font-weight: normal;
     src: url('./Fonts/Baloo_Bhaijaan/BalooBhaijaan-Regular.ttf') format('truetype');
-  }
+}
+
+.App {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 60vh);
+}

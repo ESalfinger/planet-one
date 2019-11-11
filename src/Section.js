@@ -2,6 +2,7 @@ import React from 'react';
 import {Video} from './Video';
 import {Button} from './Button';
 import {Cards} from './Cards';
+import {Weather} from './Weather';
 import "./css/Section.css";
 import text from './strings/Text.json';
 
@@ -14,11 +15,14 @@ export function Section(props) {
 
   return (
     <div className = {props.className}>
-      <h1>{text[props.title]}</h1>
-      <p>{text[props.text]}</p>
+      <div className = 'text'>
+        <h1>{text[props.title]}</h1>
+        <p>{text[props.text]}</p>
+      </div>
       {props.hasVideo && <Video src={props.src} />}
       {props.hasButton && <Button action = {props.action} target = {props.target} symbol = {props.symbol} className = {props.button} buttonText = {props.buttonText} />}
       {props.hasCards && <Cards type = {props.className}/>}
+      {props.hasWeather && <Weather />}
     </div>
   );
 }

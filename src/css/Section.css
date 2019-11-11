@@ -1,16 +1,14 @@
 .hero {
-    height: 60vh;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
     align-items: center;
     background: rgb(85,30,175);
     background: linear-gradient(180deg, rgba(85,30,175,1) 0%, rgba(75,33,175,1) 100%);
-}
-
-.space {
-    background: rgba(75,33,175,1);
-    background: linear-gradient(180deg, rgba(75,33,175,1) 0%, rgba(30,47,175,1) 100%);
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 .hero h1 {
@@ -21,4 +19,80 @@
 
 .hero p {
     color: white;
+}
+
+.space {
+    background: rgba(75,33,175,1);
+    background: linear-gradient(180deg, rgba(75,33,175,1) 0%, rgba(30,47,175,1) 100%);
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.ozone {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.air {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.mountains {
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    border: solid green 3px;
+}
+
+.weather {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.forests {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.animals {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+
+.ice {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 9;
+    grid-row-end: 10;
+}
+
+.plastic {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 10;
+    grid-row-end: 11;
+}
+
+.fish {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 11;
+    grid-row-end: 12;
 }

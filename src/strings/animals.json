@@ -1,11 +1,14 @@
 [
     {
+        "id": 0,
         "name": "Panda"
     },
     {
+        "id": 1,
         "name": "Löwe"
     },
     {
+        "id": 2,
         "name": "Ente"
     }
 ]

@@ -12,7 +12,8 @@ function App() {
       <Section title="space-title" text="space-text" hasVideo={true} src="TransparentBG" className="space" />
       <Section title="ozone-title" text="ozone-text" hasVideo={false} className="ozone" />
       <Section title="air-title" text="air-text" hasVideo={false} className = "air"/>
-      <Section title="mountians-title" text="mountians-text" hasVideo={false} className = "mountians" hasCards={true}/>
+      <Section title="mountains-title" text="mountains-text" hasVideo={false} className = "mountains" hasCards={true}/>
+      <Section title="weather-title" hasWeather={true} className="weather" />
       <Section title="forests-title" text="forests-text" hasVideo={false} className="forests"/>
       <Section title="animals-title" text="animals-text" hasVideo={false} className="animals" hasCards={true}/>
       <Section title="ice-title" text="ice-text" hasVideo={false} className="ice"/>
