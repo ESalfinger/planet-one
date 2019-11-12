@@ -25,6 +25,7 @@ function App() {
       <Section className="plastic"/>
       <Section className="fish"/>
       <Section className="time"/>
+      <Section className="team"/>
     </div>
   );
 }
