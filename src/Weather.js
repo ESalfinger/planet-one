@@ -40,6 +40,8 @@ export function Weather() {
       <div>
         <p>Temp: {JSON.stringify(items.main.temp, null, 2)} °C</p>
         <p>Humidity: {JSON.stringify(items.main.humidity, null, 2)} %</p>
+        <input type="text" placeholder="City" onChange={handleChange} onSubmit={fetchWeather}/>
+        <button onClick={fetchWeather}>Submit</button>
         <p>Wind: {JSON.stringify(items.wind.speed, null, 2)} km/h</p>
         {items.rain && <p>Niederschlag: {JSON.stringify(items.rain["1h"], null, 2) || JSON.stringify(items.rain["3h"], null, 2)} mm</p>}
       </div>
