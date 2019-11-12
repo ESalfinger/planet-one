@@ -1,11 +1,17 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import moment from 'moment';
 import {Section} from './Section';
+import {Time} from './Time';
 
 import "./css/App.css";
 import "./css/Section.css";
 
 
 function App() {
+  useEffect(() => {
+    localStorage.setItem("timestamp", moment());
+  });
+
   return (
     <div className="App">
       <Section title="hero-title" text="hero-text" hasVideo={false} className="hero" action = {() => scrollTo("space")} button="button call-to-action" symbol="arrow_down"/>
@@ -19,6 +25,7 @@ function App() {
       <Section title="ice-title" text="ice-text" hasVideo={false} className="ice"/>
       <Section title="plastic-title" text="plastic-text" hasVideo={false} className="plastic"/>
       <Section title="fish-title" text="fish-text" hasVideo={false} className="fish"/>
+      <Time/>
     </div>
   );
 }
