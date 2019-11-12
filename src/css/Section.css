@@ -97,7 +97,7 @@
     grid-row-end: 12;
 }
 
-.Time{
+.time{
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 12;

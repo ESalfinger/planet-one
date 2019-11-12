@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react';
 import moment from 'moment';
 import {Section} from './Section';
-import {Time} from './Time';
 
 import "./css/App.css";
 import "./css/Section.css";
@@ -18,14 +17,14 @@ function App() {
       <Section className="space" src="TransparentBG" />
       <Section className="ozone" />
       <Section className="air"/>
-      <Section className="mountains" hasCards={true}/>
-      <Section className="weather" hasWeather = {true}/>
+      <Section className="mountains"/>
+      <Section className="weather"/>
       <Section className="forests"/>
-      <Section className="animals" hasCards={true}/>
+      <Section className="animals"/>
       <Section className="ice"/>
       <Section className="plastic"/>
       <Section className="fish"/>
-      <Time />
+      <Section className="time"/>
     </div>
   );
 }
