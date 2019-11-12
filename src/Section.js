@@ -16,10 +16,10 @@ export function Section(props) {
   return (
     <div className = {props.className}>
       <div className = 'text'>
-        <h1>{text[props.title]}</h1>
-        <p>{text[props.text]}</p>
+        <h1>{text[props.className + '-title']}</h1>
+        <p>{text[props.className + '-text']}</p>
       </div>
-      {props.hasVideo && <Video src={props.src} />}
+      {props.src !=null && <Video src={props.src} />}
       {props.button != null && <Button action = {props.action} target = {props.target} symbol = {props.symbol} className = {props.button} buttonText = {props.buttonText} />}
       {props.hasCards && <Cards type = {props.className}/>}
       {props.hasWeather && <Weather />}

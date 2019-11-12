@@ -14,17 +14,17 @@ function App() {
 
   return (
     <div className="App">
-      <Section title="hero-title" text="hero-text" hasVideo={false} className="hero" action = {() => scrollTo("space")} button="button call-to-action" symbol="arrow_down"/>
-      <Section title="space-title" text="space-text" hasVideo={true} src="TransparentBG" className="space" />
-      <Section title="ozone-title" text="ozone-text" hasVideo={false} className="ozone" />
-      <Section title="air-title" text="air-text" hasVideo={false} className = "air"/>
-      <Section title="mountains-title" text="mountains-text" hasVideo={false} className = "mountains" hasCards={true}/>
-      <Section title="weather-title" hasWeather={true} className="weather" />
-      <Section title="forests-title" text="forests-text" hasVideo={false} className="forests"/>
-      <Section title="animals-title" text="animals-text" hasVideo={false} className="animals" hasCards={true}/>
-      <Section title="ice-title" text="ice-text" hasVideo={false} className="ice"/>
-      <Section title="plastic-title" text="plastic-text" hasVideo={false} className="plastic"/>
-      <Section title="fish-title" text="fish-text" hasVideo={false} className="fish"/>
+      <Section className="hero" button="button call-to-action" action = {() => scrollTo("space")} symbol="arrow_down"/>
+      <Section className="space" src="TransparentBG" />
+      <Section className="ozone" />
+      <Section className="air"/>
+      <Section className="mountains" hasCards={true}/>
+      <Section className="weather" hasWeather = {true}/>
+      <Section className="forests"/>
+      <Section className="animals" hasCards={true}/>
+      <Section className="ice"/>
+      <Section className="plastic"/>
+      <Section className="fish"/>
       <Time />
     </div>
   );
@@ -33,7 +33,7 @@ function App() {
 function scrollTo(target) {
   let element = document.getElementsByClassName(target)[0];
 
-  element.scrollIntoView({behavior: "smooth", block: "end"});
+  element.scrollIntoView({behavior: "smooth", block: "start"});
 }
 
 export default App;
