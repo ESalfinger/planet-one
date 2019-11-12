@@ -27,10 +27,14 @@ function createFigures(timestamp, now) {
       times.map(((time, index) =>
         <figure key={index}>
           <i></i>
-          <figcaption>{Math.round(time.value * (time.per === "m" ? diffDuration.asMinutes() : diffDuration.asSeconds()))} {time.type} {time.action}</figcaption>
+          <figcaption>{formatNumber(Math.round(time.value * (time.per === "m" ? diffDuration.asMinutes() : diffDuration.asSeconds())))} {time.type} {time.action}</figcaption>
         </figure>
       ))
     }
     </div>
   );
+}
+
+function formatNumber(num) {
+  return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.')
 }
