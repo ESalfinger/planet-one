@@ -1,0 +1,14 @@
+[
+  {
+    "value": 200,
+    "type": "children",
+    "action": "died",
+    "per": "s"
+  },
+  {
+    "value": 1000,
+    "type": "trees",
+    "action": "roded",
+    "per": "m"
+  }
+]
