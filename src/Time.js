@@ -4,10 +4,14 @@ import times from './strings/time.json';
 import './css/Time.css';
 
 export function Time() {
-  const [timestamp] = useState(localStorage.getItem("timestamp"));
+  const [timestamp, setTimestamp] = useState(sessionStorage.getItem("timestamp"));
   const [now, setNow] = useState(moment());
 
-  useEffect(() => {
+  useEffect((timestamp) => {
+    if (!timestamp) {
+      sessionStorage.setItem("timestamp", moment());
+      setTimestamp(sessionStorage.getItem("timestamp"));
+    }
     const interval = setInterval(() => {
       setNow(moment());
     }, 1000);

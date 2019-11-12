@@ -9,7 +9,7 @@ import "./css/Section.css";
 
 function App() {
   useEffect(() => {
-    localStorage.setItem("timestamp", moment());
+    sessionStorage.setItem("timestamp", moment());
   });
 
   return (
