@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
-import times from './strings/time.json';
 import moment from 'moment';
+import times from './strings/time.json';
+import './css/Time.css';
 
 export function Time() {
   const [timestamp] = useState(localStorage.getItem("timestamp"));
@@ -13,11 +14,7 @@ export function Time() {
     return () => clearInterval(interval);
   }, []);
 
-  return (
-    <div>
-      {createFigures(timestamp, now)}
-    </div>
-  );
+  return createFigures(timestamp, now);
 }
 
 function createFigures(timestamp, now) {
@@ -25,7 +22,7 @@ function createFigures(timestamp, now) {
   const diffDuration = moment.duration(diff);
 
   return (
-    <div>
+    <div className="Time">
     {
       times.map(((time, index) =>
         <figure key={index}>
