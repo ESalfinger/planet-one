@@ -25,7 +25,7 @@ function App() {
       <Section title="ice-title" text="ice-text" hasVideo={false} className="ice"/>
       <Section title="plastic-title" text="plastic-text" hasVideo={false} className="plastic"/>
       <Section title="fish-title" text="fish-text" hasVideo={false} className="fish"/>
-      <Time/>
+      <Time />
     </div>
   );
 }

@@ -3,8 +3,8 @@ import Animal from './Animal';
 import Mountain from './Mountain';
 import animals from './strings/animals.json';
 import mountains from './strings/mountains.json';
-import forward from './forward.svg';
-import back from './back.svg';
+import forward from './icons/forward.svg';
+import back from './icons/back.svg';
 
 import './css/Cards.css';
 
