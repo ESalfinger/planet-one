@@ -23,7 +23,7 @@ function App() {
       <Section className="animals"/>
       <Section className="ice"/>
       <Section className="plastic"/>
-      <Section className="fish"/>
+      <Section className="coral"/>
       <Section className="time"/>
       <Section className="team"/>
     </div>
