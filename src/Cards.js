@@ -25,7 +25,7 @@ export function Cards(props) {
                     <img src = {back} alt = "back"></img>
                 </div>
                 {animals.map((animal)=> {
-                    return <Animal key = {animal.id} id = {animal.id} name = {animal.name}/>
+                    return <Animal key = {animal.id} id = {animal.id} name = {animal.name} text = {animal.text}/>
                 })}
                 <div className = "control forward" onClick = {() => switchCard("forward", "animal")}>
                      <img src = {forward} alt = "forward"></img>
