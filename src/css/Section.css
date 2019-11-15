@@ -62,51 +62,58 @@
     grid-row-end: 7;
 }
 
-.forests {
+.polution {
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 7;
     grid-row-end: 8;
 }
 
-.animals {
+.forests {
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 8;
     grid-row-end: 9;
 }
 
-.ice {
+.animals {
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 9;
     grid-row-end: 10;
 }
 
-.plastic {
+.ice {
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 10;
     grid-row-end: 11;
 }
 
-.coral {
+.plastic {
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 11;
     grid-row-end: 12;
 }
 
-.time{
+.coral {
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 12;
     grid-row-end: 13;
 }
 
-.team{
+.time {
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 13;
     grid-row-end: 14;
+}
+
+.team {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 14;
+    grid-row-end: 15;
 }

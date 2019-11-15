@@ -15,7 +15,7 @@ import text from './strings/Text.json';
 export function Section(props) {
 
   return (
-    <div className = {props.className}>
+    <div className = {props.className} id = {props.className}>
       <div className = 'text'>
         <h1>{text[props.className + '-title']}</h1>
         <p>{text[props.className + '-text']}</p>
