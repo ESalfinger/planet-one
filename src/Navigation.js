@@ -5,12 +5,18 @@ import strings from './strings/navigation.json';
 import './css/Navigation.css';
 
 export function Navigation() {
+  const changeLanguage = lng => {
+    localStorage.setItem("lng", lng);
+    window.location.reload();
+  };
     return (
         <div className = 'navigation'>
             <div className = 'trigger-nav-container' onClick = {toggleNav}>
                 <img alt='navigation symbol' src={open} className = 'trigger-nav'></img>
             </div>
-            <div className = 'open-nav'> 
+            <div className = 'open-nav'>
+              <button onClick={() => changeLanguage("de")}>DE</button>
+              <button onClick={() => changeLanguage("en")}>EN</button>
                 <div className = 'nav-links'>
                     <p className='nav-link' onClick = {() => scrollTo("hero")}>{strings.hero}</p>
                     <p className='nav-link' onClick = {() => scrollTo("space")}>{strings.space}</p>
@@ -32,7 +38,7 @@ export function Navigation() {
 
     function scrollTo(target) {
         let element = document.getElementsByClassName(target)[0];
-      
+
         element.scrollIntoView({behavior: "smooth", block: "start"});
         toggleNav();
     }
@@ -40,7 +46,7 @@ export function Navigation() {
     function toggleNav() {
         let element = document.getElementsByClassName('navigation')[0];
         let trigger = document.getElementsByClassName('trigger-nav')[0];
-        
+
         if (element.classList.contains('open')) {
             element.classList.remove('open');
             trigger.classList.remove('rotate-open');
