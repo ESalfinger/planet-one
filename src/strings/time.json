@@ -2,7 +2,7 @@
   {
     "value": 200,
     "type": "children",
-    "action": "died",
+    "action": "dead",
     "per": "s"
   },
   {

@@ -3,17 +3,26 @@ import moment from 'moment';
 import {Section} from './Section';
 import {Navigation} from './Navigation';
 
+import { Section } from "./Section";
+
 import "./css/App.css";
 import "./css/Section.css";
 
+function App(props) {
+  const changeLanguage = lng => {
+    localStorage.setItem("lng", lng);
+    window.location.reload();
+  };
 
-function App() {
+
   useEffect(() => {
     sessionStorage.setItem("timestamp", moment());
   });
 
   return (
     <div className="App">
+      <button onClick={() => changeLanguage("de")}>DE</button>
+      <button onClick={() => changeLanguage("en")}>EN</button>
       <Navigation />
       <Section className="hero" button="button call-to-action" action = {() => scrollTo("space")} symbol="arrow_down"/>
       <Section className="space" src="TransparentBG" />
@@ -36,7 +45,7 @@ function App() {
 function scrollTo(target) {
   let element = document.getElementsByClassName(target)[0];
 
-  element.scrollIntoView({behavior: "smooth", block: "start"});
+  element.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 export default App;
