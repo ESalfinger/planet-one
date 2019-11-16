@@ -1,7 +1,7 @@
 const k = require("./keys");
 
 module.exports = {
-  [k.HEROTITLE]: "Welcome to our fancy webpage",
+  [k.HEROTITLE]: "Willkommen auf unserer coolen Webseite!",
   [k.HEROTEXT]:
     "Der Klimawandel ist ein natürlicher Prozess der Erdgeschichte. Jedoch kann die Mitschuld der Menschen nicht mehr verleugnet werden, wenn man berücksichtigt über welch kurzen Zeitraum die Durchschnittstemperaturen steigen. Dies bestätigen auch über 90% der Klimaforscher, welche den Mensch als maßgeblichen Verursacher sehen. Zudem kommt, dass wir tagtäglich die Umwelt verschmutzen und Tiere ausrotten, zum alleinigen Zwecke des Wirtschaftswachstums. Dabei vergessen wir, dass wir nur einen einzigen Planeten zur Verfügung haben.",
   [k.SPACETITLE]: "Space",
