@@ -45,7 +45,7 @@ export function Weather() {
         <input type="text" placeholder="City" onChange={handleChange} onSubmit={fetchWeather} />
         <button onClick={fetchWeather}>{i18n.t(k.SUBMIT)}</button>
         <p>{i18n.t(k.WIND)} {JSON.stringify(items.wind.speed, null, 2)} {i18n.t(k.SPEED)}</p>
-        {items.rain && <p>{i18n.t(k.RAIN)} {JSON.stringify(items.rain["1h"], null, 2) || JSON.stringify(items.rain["3h"], null, 2)} mm}</p>}
+        {items.rain && <p>{i18n.t(k.RAIN)} {JSON.stringify(items.rain["1h"], null, 2) || JSON.stringify(items.rain["3h"], null, 2)} mm</p>}
       </div>);
 
   }
