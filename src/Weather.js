@@ -46,7 +46,7 @@ export function Weather() {
   } else {
     return (
       <form>
-        <p>{items.name}</p>
+        <p>{items.name}, {items.sys.country}</p>
         <p>{moment().utcOffset(items.timezone/60).format("LT").toString()}</p>
         <p>{i18n.t(k.TEMP)} {items.main.temp} °{i18n.t(k.UNITTEMP)}</p>
         <p>{i18n.t(k.HUMIDITY)} {items.main.humidity} %</p>
