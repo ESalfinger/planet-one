@@ -34,13 +34,15 @@ module.exports = {
   [k.TEAMTITLE]: "Team",
   [k.TEAMTEXT]: "Team Text",
 
+  [k.UNITS]: "metric",
+  [k.UNITTEMP]: "C",
+  [k.UNITSPEED]: "kmh",
   [k.PLACEHOLDER]: "Stadt",
   [k.ERRORMESSAGE]: "Stadt nicht gefunden!",
   [k.WIND]: "Wind",
   [k.HUMIDITY]: "Luftfeuchtigkeit",
   [k.TEMP]: "Temperatur",
   [k.RAIN]: "Niederschlag",
-  [k.SPEED]: "km/h",
   [k.SUBMIT]: "Suchen",
 
   [k.CHILDREN]: "Kinder",

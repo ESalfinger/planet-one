@@ -19,7 +19,7 @@ export function Weather() {
 
   const fetchWeather = (event) => {
     event.preventDefault();
-    let url = 'https://api.openweathermap.org/data/2.5/weather?APPID=07168488295cf3fc8b2b59bab9ac2b3d&units=metric&q=' + city;
+    let url = 'https://api.openweathermap.org/data/2.5/weather?APPID=07168488295cf3fc8b2b59bab9ac2b3d&units=' + i18n.t(k.UNITS) + '&q=' + city;
 
     fetch(url)
     .then(handleErrors)
@@ -48,12 +48,12 @@ export function Weather() {
       <form>
         <p>{items.name}</p>
         <p>{moment().utcOffset(items.timezone/60).format("LT").toString()}</p>
-        <p>{i18n.t(k.TEMP)} {items.main.temp} °C</p>
+        <p>{i18n.t(k.TEMP)} {items.main.temp} °{i18n.t(k.UNITTEMP)}</p>
         <p>{i18n.t(k.HUMIDITY)} {items.main.humidity} %</p>
         <input type="text" placeholder={i18n.t(k.PLACEHOLDER)} onChange={handleChange} onSubmit={fetchWeather} required/>
         <p>{errorMessage}</p>
         <button onClick={fetchWeather}>{i18n.t(k.SUBMIT)}</button>
-        <p>{i18n.t(k.WIND)} {items.wind.speed} {i18n.t(k.SPEED)}</p>
+        <p>{i18n.t(k.WIND)} {items.wind.speed} {i18n.t(k.UNITSPEED)}</p>
         {items.rain && <p>{i18n.t(k.RAIN)} {items.rain["1h"] || items.rain["3h"]} mm</p>}
       </form>);
 
