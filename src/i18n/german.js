@@ -34,6 +34,8 @@ module.exports = {
   [k.TEAMTITLE]: "Team",
   [k.TEAMTEXT]: "Team Text",
 
+  [k.PLACEHOLDER]: "Stadt",
+  [k.ERRORMESSAGE]: "Stadt nicht gefunden!",
   [k.WIND]: "Wind",
   [k.HUMIDITY]: "Luftfeuchtigkeit",
   [k.TEMP]: "Temperatur",

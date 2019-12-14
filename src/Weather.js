@@ -1,20 +1,21 @@
 import i18n from 'i18next';
 import k from "./i18n/keys";
+import moment from 'moment';
 import React, { useState } from 'react';
 
 function handleErrors(response) {
   if (!response.ok) {
-    throw Error("City not found");
+    throw Error(i18n.t(k.ERRORMESSAGE));
   }
   return response;
 }
 
 
 export function Weather() {
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState();
   const [isLoaded, setIsLoaded] = useState(false);
   const [city, setCity] = useState();
-  const [errorMessage, setErrorMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("")
 
   const fetchWeather = (event) => {
     event.preventDefault();
@@ -36,7 +37,7 @@ export function Weather() {
   if (!isLoaded) {
     return (
       <form onSubmit={fetchWeather}>
-        <input type="text" placeholder="City" onChange={handleChange} required/>
+        <input type="text" placeholder={i18n.t(k.PLACEHOLDER)} onChange={handleChange} required/>
         <p>{errorMessage}</p>
         <button>{i18n.t(k.SUBMIT)}</button>
       </form>
@@ -45,13 +46,15 @@ export function Weather() {
   } else {
     return (
       <form>
-        <p>{i18n.t(k.TEMP)} {JSON.stringify(items.main.temp, null, 2)} °C</p>
-        <p>{i18n.t(k.HUMIDITY)} {JSON.stringify(items.main.humidity, null, 2)} %</p>
-        <input type="text" placeholder="City" onChange={handleChange} onSubmit={fetchWeather} required/>
+        <p>{items.name}</p>
+        <p>{moment().utcOffset(items.timezone/60).format("LT").toString()}</p>
+        <p>{i18n.t(k.TEMP)} {items.main.temp} °C</p>
+        <p>{i18n.t(k.HUMIDITY)} {items.main.humidity} %</p>
+        <input type="text" placeholder={i18n.t(k.PLACEHOLDER)} onChange={handleChange} onSubmit={fetchWeather} required/>
         <p>{errorMessage}</p>
         <button onClick={fetchWeather}>{i18n.t(k.SUBMIT)}</button>
-        <p>{i18n.t(k.WIND)} {JSON.stringify(items.wind.speed, null, 2)} {i18n.t(k.SPEED)}</p>
-        {items.rain && <p>{i18n.t(k.RAIN)} {JSON.stringify(items.rain["1h"], null, 2) || JSON.stringify(items.rain["3h"], null, 2)} mm</p>}
+        <p>{i18n.t(k.WIND)} {items.wind.speed} {i18n.t(k.SPEED)}</p>
+        {items.rain && <p>{i18n.t(k.RAIN)} {items.rain["1h"] || items.rain["3h"]} mm</p>}
       </form>);
 
   }

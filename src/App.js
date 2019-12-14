@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import moment from 'moment';
+import 'moment/locale/de';
 import {Section} from './Section';
 import {Navigation} from './Navigation';
 
@@ -9,6 +10,7 @@ import "./css/Section.css";
 
 function App(props) {
   useEffect(() => {
+    moment.locale(localStorage.getItem("lng") || "de")
     sessionStorage.setItem("timestamp", moment());
   });
 
