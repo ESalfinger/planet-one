@@ -43,7 +43,7 @@ export function Weather() {
           <input className = "weather-input" id="search" type="text" placeholder={i18n.t(k.PLACEHOLDER)} onChange={handleChange} required/>
           <label className = "weather-label" htmlFor="search">{i18n.t(k.LABEL)}</label>
         </div>
-        <button className = "weather-button text">{i18n.t(k.SUBMIT)}</button>
+        <button className = "weather-button button-hover">{i18n.t(k.SUBMIT)}</button>
       </form>
       );
 
@@ -85,7 +85,7 @@ export function Weather() {
           </div>
         </div>
         <div className = "weather-video">
-            <p className = "wather-video-name">{items.name}, {items.sys.country}</p>
+            <p className = "weather-video-name">{items.name}, {items.sys.country}</p>
         </div>
       </form>);
   }
