@@ -3,6 +3,7 @@ import k from "./i18n/keys";
 import moment from 'moment';
 import React, { useState } from 'react';
 import './css/weather.css';
+import search from './icons/search.svg';
 
 function handleErrors(response) {
   if (!response.ok) {
@@ -49,21 +50,42 @@ export function Weather() {
   } else {
     return (
       <form className = "weather-result">
-        <div className = "weather-again">
-          <div className = "weather-searche-bar">
-            <p className = "weather-error">{errorMessage}</p>
-            <input className = "weather-input" id="search" type="text" placeholder={i18n.t(k.PLACEHOLDER)} onChange={handleChange} onSubmit={fetchWeather} required/>
-            <label className = "weather-label" htmlFor="search">{i18n.t(k.LABEL)}</label>
+        <div className = "weather-card">
+          <div className = "weather-again">
+            <div className = "weather-search-bar">
+              <p className = "weather-error">{errorMessage}</p>
+              <input className = "weather-input" id="search" type="text" placeholder={i18n.t(k.PLACEHOLDER)} onChange={handleChange} onSubmit={fetchWeather} required/>
+              <label className = "weather-label" htmlFor="search">{i18n.t(k.LABEL)}</label>
+            </div>
+            <button className = "weather-button icon" onClick={fetchWeather}><img alt="search" src={search}></img></button>
           </div>
-          <button className = "weather-button" onClick={fetchWeather}>{i18n.t(k.SUBMIT)}</button>
+          <div className = "weather-values">
+            <div className = "weather-location">
+              <p className = "weather-location-name">{items.name}, {items.sys.country}</p>
+              <p className = "weather-location-time">{i18n.t(k.TIME)} {moment().utcOffset(items.timezone/60).format("LT").toString()}</p>
+            </div>
+            <div className = "weather-value">
+              <p className = "weather-value-key">{i18n.t(k.TEMP)}</p>
+              <p>{items.main.temp} °{i18n.t(k.UNITTEMP)}</p>
+            </div>
+            <div className = "weather-value">
+              <p className = "weather-value-key">{i18n.t(k.HUMIDITY)}</p>
+              <p>{items.main.humidity} %</p>
+            </div>
+            <div className = "weather-value">
+              <p className = "weather-value-key">{i18n.t(k.WIND)}</p>
+              <p>{items.wind.speed} {i18n.t(k.UNITSPEED)}</p>
+            </div>
+            {items.rain && 
+            <div className = "weather-value">
+              <p className = "weather-value-key">{i18n.t(k.RAIN)}</p>
+              <p>{items.rain["1h"] || items.rain["3h"]} mm</p>
+            </div>
+            }
+          </div>
         </div>
-        <div className = "weather-values">
-          <p>{items.name}, {items.sys.country}</p>
-          <p>{moment().utcOffset(items.timezone/60).format("LT").toString()}</p>
-          <p>{i18n.t(k.TEMP)} {items.main.temp} °{i18n.t(k.UNITTEMP)}</p>
-          <p>{i18n.t(k.HUMIDITY)} {items.main.humidity} %</p>
-          <p>{i18n.t(k.WIND)} {items.wind.speed} {i18n.t(k.UNITSPEED)}</p>
-          {items.rain && <p>{i18n.t(k.RAIN)} {items.rain["1h"] || items.rain["3h"]} mm</p>}
+        <div className = "weather-video">
+            <p className = "wather-video-name">{items.name}, {items.sys.country}</p>
         </div>
       </form>);
   }

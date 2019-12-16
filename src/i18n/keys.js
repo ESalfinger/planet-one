@@ -32,6 +32,7 @@ module.exports = {
   PLACEHOLDER: "PLACEHOLDER",
   LABEL: "LABLE",
   WIND: "WIND",
+  TIME: "TIME",
   HUMIDITY: "HUMIDITY",
   TEMP: "TEMP",
   RAIN: "RAIN",

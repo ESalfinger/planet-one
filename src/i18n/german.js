@@ -37,6 +37,7 @@ module.exports = {
   [k.PLACEHOLDER]: "Gib deine Stadt ein",
   [k.LABEL]: "Stadt",
   [k.ERRORMESSAGE]: "Stadt nicht gefunden!",
+  [k.TIME]: "Lokale Zeit",
   [k.WIND]: "Wind",
   [k.HUMIDITY]: "Luftfeuchtigkeit",
   [k.TEMP]: "Temperatur",
