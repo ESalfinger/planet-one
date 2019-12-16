@@ -1,34 +1,37 @@
 const k = require("./keys");
 
 module.exports = {
-    [k.HEROTITLE]: "Welcome on our fancy Webpage!",
+    [k.HEROTITLE]: "Welcome to PlanetOne!",
     [k.HEROTEXT]:
-      "Der Klimawandel ist ein natürlicher Prozess der Erdgeschichte. Jedoch kann die Mitschuld der Menschen nicht mehr verleugnet werden, wenn man berücksichtigt über welch kurzen Zeitraum die Durchschnittstemperaturen steigen. Dies bestätigen auch über 90% der Klimaforscher, welche den Mensch als maßgeblichen Verursacher sehen. Zudem kommt, dass wir tagtäglich die Umwelt verschmutzen und Tiere ausrotten, zum alleinigen Zwecke des Wirtschaftswachstums. Dabei vergessen wir, dass wir nur einen einzigen Planeten zur Verfügung haben.",
+     "Climate change is a natural process of geological history. However, the complicity of humans can no longer be denied, considering the short period average temperatures are rising. This is also confirmed by more than 90% of climatologists who see humans as a significant cause. Moreover, every day we pollute the environment and exterminate animals for the sole purpose of economic growth. We forget that we only have one planet at our disposal.",
     [k.SPACETITLE]: "Space",
     [k.SPACETEXT]:
-      "Mit der fortschreitenden Erkundung und Nutzung des Weltalls, schreitet auch die Menge an von Menschen geschaffenem Weltraummüll voran. Zum aktuellen Zeitpunkt befinden sich bereits über 6 Tonnen Müll über der Erdatmosphäre. Das Problem darin besteht in der Geschwindigkeit der einzigen Partikel, wodurch bereits kleinste Objekte eine verheerende Wirkung bei einem Aufschlag auf beispielsweise einen Satelliten verursachen. Zudem kommt, dass ein Zusammenstoß eine Kettenreaktion hervorrufen könnte, welche zu einer großen Anzahl an fortführenden Kollisionen führt.",
+      "As the exploration and use of space progress, so does the amount of man-made space debris. At the moment, there are already more than 6 tons of garbage over the earth's atmosphere. The problem with this is the speed of the single particles, causing even the smallest of objects to have a devastating impact on, for example, a satellite. Besides, a collision could cause a chain reaction, resulting in a large number of continuing collisions.",
     [k.OZONETITLE]: "Ozone",
     [k.OZONETEXT]:
-      "Die Ozonschicht sorgt in der Stratosphäre dafür, dass ein Großteil der ultravioletten Sonnenstrahlung absorbiert wird und hat nur indirekt etwas mit dem Klimawandel zu tun, auch wenn diese Begriffe oft miteinander verwendet werden. Das erste Ozonloch wurde 1960 über der Antarktis entdeckt. Auch über Australien und Neueseeland befindet sich ein Ozonloch, welches zu einer hohen Anfälligkeit für Erkrankungen wie Hautkrebs führt. Als Gegenmaßnahme wurde 1987 das FCKWVerbot eingeführt. Laut einem Bericht der Weltorganisation für Meteorolgie besteht die Möglichkeit, dass sich die Ozonschicht bis 2050 weitgehend erholt.",
+      "The ozone layer in the stratosphere ensures that a large part of the ultraviolet solar radiation is absorbed and has only indirectly to do with climate change, even if these terms are often used together. The first ozone hole was discovered in 1960 over the Antarctic. Also over Australia and New Zealand is an ozone hole, which leads to high susceptibility to diseases such as skin cancer. As a countermeasure, the CFC ban was introduced in 1987. According to a report by the World Meteorological Organization, there is a chance that the ozone layer will largely recover by 2050.",
     [k.AIRTITLE]: "Air",
     [k.AIRTEXT]:
-      "Aktuell trägt der Flugverkehr bei den weltweiten CO2Emissionen mit ungefähr 3% bei. Dies hört sich einerseits nach wenig an, andererseits gilt es aber zu berücksichtigen, dass Flugzeuge den anderen Transportwegen zahlenmäßig weit unterlegen sind. Fliegen stellt eine sehr ineffiziente Art der Fortbewegung dar und führt daher bei steigender Anzahl zu einem rapiden Anstieg der Emissionen. Eine beunruhigende Entwicklung stellen somit die Inlandflüge dar, welche oft aufgrund von Komfort bzw. Zeitdruck genutzt werden.",
-    [k.MOUNTAINSTITLE]: "Mountians",
+      "Currently, air traffic contributes about 3% of global CO2 emissions. On the one hand, this does not sound like much, but on the other hand, it has to be taken into account that aircraft are numerically far inferior to the other transport routes. Flying is a very inefficient mean of transport and therefore causes a rapid increase in emissions as the number increases. A disturbing development is thus the domestic flights, which are often used due to comfort or time pressure.",
+    [k.MOUNTAINSTITLE]: "Mountains",
     [k.MOUNTAINSTEXT]:
-      "Gut sichtbar sind die Folgen des Klimawandels leider auch bei den Gebirgen und Bergen. Diese führen zu globalen Gletscherschmelzen, welche sich in Erdrutschen und Bergabgängen äußern. Nach der Schmelze findet man oft nur noch öde Gesteinswüsten, welche das Leben für viele Kleintiere und Pflanzen in diesen Gebieten unmöglich machen. Seit dem Jahr 2000 verlieren Gletscher durchschnittlich 3% ihres Volumens jedes Jahr. Allein in den Alpen könnte sich laut Berechnungen die Anzahl der Gletscher in den nächsten Jahren halbieren. Dieses Phänomen führt weltweit gülitig auch zu einer Wasserknappheit dieser Regionen und bringt somit weitere Probleme mit sich.",
+      "Unfortunately, the consequences of climate change are also clearly visible in the mountains. These lead to global glacial melting, which manifests itself in landslides and downhills. After the melt, only barren rock deserts remain, which makes life impossible for many small animals and plants in these areas. Since 2000, glaciers have lost an average of 3% of their volume each year. In the Alps alone, according to calculations, the number of glaciers could halve in the next few years. This phenomenon is also a source of water scarcity in these regions, bringing with it further problems.",
+    [k.POLLUTIONTITLE]: "Pollution",
+    [k.POLLUTIONTEXT]:
+      "Another man-made problem deals with air pollution in cities. In the long term, this poses a threatening health risk for those affected and can lead to various cancers. About 7 million deaths a year are said to be due to it. As a countermeasure serves the Paris Agreement, which serves as an alliance to keep global warming at a low level. Unfortunately, this alone is not enough.",
     [k.WEATHERTITLE]: "Weather",
     [k.FORESTSTITLE]: "Forests",
     [k.FORESTSTEXT]:
-      "Ein wichtiges Thema ist auch die Abrodung der Regenwälder, da in den Wäldern große Mengen an CO2 gespeichert sind, welche bei der Abholzung frei gegeben werden. Dazu kommt, dass die Bäume Grundwasser an die Luft weitergeben und somit zu einem ausgeglichenen Wasserkreislauf führen. Nach der Rodung solcher Wälder entstehen dürre Landschaften auf denen nicht einfach wieder ein Wald gepflanzt werden kann. Da durch häufigen Regen in den Tropen die nährstoffreichen Erdschichten abgetragen werden. Zudem werden dadurch auch täglich Pflanzen und Tierarten ausgerottet.",
+      "An important topic is also the clearing away of the rainforests since in the forests large quantities of CO2 are stored, which are released during deforestation. Besides, the trees transmit groundwater to the air and thus lead to a balanced water cycle. After the clearing of such forests, arid landscapes arise on which not just a forest can be planted again. Because of frequent rain in the tropics, the needed nutrient-rich earth layers are removed. Also,  plants and animal species get eradicated daily.",
     [k.ICETITLE]: "Ice",
     [k.ICETEXT]:
-      "Als Folge des Klimawandels schmilzt auch das Eis der Polarregionen und führt zu einem steigenden Meeresspiegel. Beunruhigend ist auch, dass sich die Geschwindigkeit der Eisschmelze kontinuierlich erhöht. Nach den Berechnungen einer Forschergruppe der University of Colorado könnte im Jahr 2100 der Meeresspiegel bereits um über 65 Zentimeter gestiegen sein. Dies kann zu weltweiten Flutkatastrophen führen und tiefliegende Regionen könnten komplett überflutet werden. Besonders betroffen sind auch flache Inselgruppen der Tropen, wie der Inselstaat Malediven beispielsweise. ",
+      "As a result of climate change, the ice of the polar regions also melts and leads to rising sea levels. It is also disturbing that the speed of the ice melt is constantly increasing. According to the calculations of a research group of the University of Colorado, the sea level could have risen by over 65 centimeters by the year 2100. This can lead to worldwide flood disasters and low-lying regions could be completely flooded. Particularly affected are flat island groups of the tropics, such as the island state of Maldives, for example.",
     [k.PLASTICTITLE]: "Plastic",
     [k.PLASTICTEXT]:
-      "Insgesamt schwimmen ungefähr 150 Millionen Tonnen Plastikmüll im Meer. Jährlich kommen bis zu 12 Millionen Tonnen dazu mit steigender Tendenz. Somit könnte es bis zum Jahr 2050 mehr Plastik als Fische im Meer geben. Viele Tiere verheddern sich im Plastik oder verwechseln kleine Partikel mit Nahrung. Die Folgen sind Strangulationen, Verletzungen und mit Plastik gefüllte Mägen. Letzteres führt langfristig dazu, dass die Tiere mit vollem Magen verhungern.",
+      "In total, about 150 million tons of plastic waste are floating in the sea. Every year, up to 12 million tons are added with an upward trend. Thus, by the year 2050, there could be more plastic than fish in the sea. Many animals become entangled in plastic or confuse small particles with food. The consequences are strangulation, injuries, and plastic-filled stomachs. The last one leads to starving animals with a full stomach in the long term.",
     [k.CORALTITLE]: "Coral",
     [k.CORALTEXT]:
-      "Durch die steigenden Temperaturen der Ozeane sind auch Korallenriffe vom Klimawandel betroffen. Diese faszinierenden Ökosysteme dienen vielen Fischarten als Lebensraum und schützen Küstenregionen vor Stürmen beispielsweise. Da Korallen in einer Symbiose mit Algen leben kommt es bei Hitzewellen dazu, dass die Korallen diese abstoßen und ausbleichen. Die sogenannte Korallenbleiche kann bis zum Sterben der Koralle binnen weniger Tage führen. Allein in dem Zeitraum von 2014 bis 2017 sind beinahe ein Drittel aller weltweit existierenden Korallenriffe von der Korallenbleiche befallen worden. Dies könnte langfristig auch bedrohlich für die Lebensgrundlage vieler Menschen sein, welche ihr Geld mit der Fischerei verdienen.",
+      "Due to the rising temperatures of the oceans, coral reefs are also affected by climate change. These fascinating ecosystems serve many species of fish as habitat and protect coastal regions from storms, for example. As corals live in symbiosis with algae, heat waves cause the corals to repel these and bleach themselves. The so-called coral bleaching can lead to the death of the coral within a few days. In the period from 2014 to 2017 alone, almost one-third of all coral reefs existing worldwide were attacked by coral bleaching. In the long term, this could also threaten the livelihoods of many people who make their living from fishing.",
     [k.TIMETITLE]: "Time",
     [k.TIMETEXT]: "Time Text",
     [k.TEAMTITLE]: "Team",
@@ -43,7 +46,7 @@ module.exports = {
     [k.HUMIDITY]: "Humidity",
     [k.TEMP]: "Temperature",
     [k.RAIN]: "Precipitation",
-    [k.SUBMIT]: "Search",
+    [k.SUBMIT]: "Show weather",
 
     [k.CHILDREN]: "Children",
     [k.TREES]: "Trees",
