@@ -23,5 +23,4 @@ export function Section(props) {
       {props.className === "weather" && <Weather />}
       {props.className === "time" && <Time />}
     </div>);
-
 }

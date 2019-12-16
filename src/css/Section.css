@@ -56,10 +56,12 @@
 }
 
 .weather {
-    grid-column-start: 1;
-    grid-column-end: 13;
+    grid-column-start: 2;
+    grid-column-end: 12;
     grid-row-start: 6;
     grid-row-end: 7;
+    display: flex;
+    justify-content: center;
 }
 
 .polution {

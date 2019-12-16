@@ -14,5 +14,5 @@
 .App {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(14, 60vh);
+    grid-template-rows: repeat(14, 80vh);
 }

@@ -16,7 +16,7 @@ module.exports = {
     [k.MOUNTAINSTITLE]: "Mountians",
     [k.MOUNTAINSTEXT]:
       "Gut sichtbar sind die Folgen des Klimawandels leider auch bei den Gebirgen und Bergen. Diese führen zu globalen Gletscherschmelzen, welche sich in Erdrutschen und Bergabgängen äußern. Nach der Schmelze findet man oft nur noch öde Gesteinswüsten, welche das Leben für viele Kleintiere und Pflanzen in diesen Gebieten unmöglich machen. Seit dem Jahr 2000 verlieren Gletscher durchschnittlich 3% ihres Volumens jedes Jahr. Allein in den Alpen könnte sich laut Berechnungen die Anzahl der Gletscher in den nächsten Jahren halbieren. Dieses Phänomen führt weltweit gülitig auch zu einer Wasserknappheit dieser Regionen und bringt somit weitere Probleme mit sich.",
-    [k.WEATHERTITLE]: "Weather",
+    [k.WEATHERTITLE]: "",
     [k.FORESTSTITLE]: "Forests",
     [k.FORESTSTEXT]:
       "Ein wichtiges Thema ist auch die Abrodung der Regenwälder, da in den Wäldern große Mengen an CO2 gespeichert sind, welche bei der Abholzung frei gegeben werden. Dazu kommt, dass die Bäume Grundwasser an die Luft weitergeben und somit zu einem ausgeglichenen Wasserkreislauf führen. Nach der Rodung solcher Wälder entstehen dürre Landschaften auf denen nicht einfach wieder ein Wald gepflanzt werden kann. Da durch häufigen Regen in den Tropen die nährstoffreichen Erdschichten abgetragen werden. Zudem werden dadurch auch täglich Pflanzen und Tierarten ausgerottet.",
@@ -36,8 +36,9 @@ module.exports = {
 
     [k.UNITS]: "imperial",
     [k.UNITTEMP]: "F",
-    [k.UNITSPEED]: "mph",
-    [k.PLACEHOLDER]: "City",
+    [k.UNITSPEED]: "mp/h",
+    [k.PLACEHOLDER]: "Enter your city",
+    [k.LABEL]: "City",
     [k.ERRORMESSAGE]: "City not found!",
     [k.WIND]: "Wind",
     [k.HUMIDITY]: "Humidity",

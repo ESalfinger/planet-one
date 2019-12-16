@@ -1,0 +1,77 @@
+.weather {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.weather-result {
+    border: solid red 2px;
+}
+
+.weather-search {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+
+.weather-initial-bar {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 480px;
+}
+
+.weather-button {
+    outline: none;
+    background-color: #6590FD;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bold;
+    border: none;
+    color: white;
+    height: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 24px;
+    border-radius: 8px;
+    margin-left: 32px;
+}
+
+.weather-button:hover {
+    cursor: pointer;
+}
+
+.weather-error {
+    color: #F04141;
+    font-size: 16px;
+    opacity: 0.98;
+    margin-top: 8px;
+}
+
+.weather-input {
+    font-size: 24px;
+    outline: none;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    border: solid 3px black 0.08;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.weather-input:focus {
+    border: solid 3px black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.weather-input:focus + .weather-label {
+    visibility: visible;
+    opacity: 0.38;
+}
+
+.weather-label {
+    visibility: hidden;
+}
+
+::placeholder {
+    opacity: 0.38;
+}
+

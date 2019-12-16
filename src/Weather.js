@@ -2,6 +2,7 @@ import i18n from 'i18next';
 import k from "./i18n/keys";
 import moment from 'moment';
 import React, { useState } from 'react';
+import './css/weather.css';
 
 function handleErrors(response) {
   if (!response.ok) {
@@ -9,7 +10,6 @@ function handleErrors(response) {
   }
   return response;
 }
-
 
 export function Weather() {
   const [items, setItems] = useState();
@@ -36,26 +36,35 @@ export function Weather() {
 
   if (!isLoaded) {
     return (
-      <form onSubmit={fetchWeather}>
-        <input type="text" placeholder={i18n.t(k.PLACEHOLDER)} onChange={handleChange} required/>
-        <p>{errorMessage}</p>
-        <button>{i18n.t(k.SUBMIT)}</button>
+      <form onSubmit={fetchWeather} className = "weather-search">
+        <div className = "weather-initial-bar">
+          <p className = "weather-error">{errorMessage}</p>
+          <input className = "weather-input" id="search" type="text" placeholder={i18n.t(k.PLACEHOLDER)} onChange={handleChange} required/>
+          <label className = "weather-label" htmlFor="search">{i18n.t(k.LABEL)}</label>
+        </div>
+        <button className = "weather-button">{i18n.t(k.SUBMIT)}</button>
       </form>
       );
 
   } else {
     return (
-      <form>
-        <p>{items.name}, {items.sys.country}</p>
-        <p>{moment().utcOffset(items.timezone/60).format("LT").toString()}</p>
-        <p>{i18n.t(k.TEMP)} {items.main.temp} °{i18n.t(k.UNITTEMP)}</p>
-        <p>{i18n.t(k.HUMIDITY)} {items.main.humidity} %</p>
-        <input type="text" placeholder={i18n.t(k.PLACEHOLDER)} onChange={handleChange} onSubmit={fetchWeather} required/>
-        <p>{errorMessage}</p>
-        <button onClick={fetchWeather}>{i18n.t(k.SUBMIT)}</button>
-        <p>{i18n.t(k.WIND)} {items.wind.speed} {i18n.t(k.UNITSPEED)}</p>
-        {items.rain && <p>{i18n.t(k.RAIN)} {items.rain["1h"] || items.rain["3h"]} mm</p>}
+      <form className = "weather-result">
+        <div className = "weather-again">
+          <div className = "weather-searche-bar">
+            <p className = "weather-error">{errorMessage}</p>
+            <input className = "weather-input" id="search" type="text" placeholder={i18n.t(k.PLACEHOLDER)} onChange={handleChange} onSubmit={fetchWeather} required/>
+            <label className = "weather-label" htmlFor="search">{i18n.t(k.LABEL)}</label>
+          </div>
+          <button className = "weather-button" onClick={fetchWeather}>{i18n.t(k.SUBMIT)}</button>
+        </div>
+        <div className = "weather-values">
+          <p>{items.name}, {items.sys.country}</p>
+          <p>{moment().utcOffset(items.timezone/60).format("LT").toString()}</p>
+          <p>{i18n.t(k.TEMP)} {items.main.temp} °{i18n.t(k.UNITTEMP)}</p>
+          <p>{i18n.t(k.HUMIDITY)} {items.main.humidity} %</p>
+          <p>{i18n.t(k.WIND)} {items.wind.speed} {i18n.t(k.UNITSPEED)}</p>
+          {items.rain && <p>{i18n.t(k.RAIN)} {items.rain["1h"] || items.rain["3h"]} mm</p>}
+        </div>
       </form>);
-
   }
 }
