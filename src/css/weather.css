@@ -15,6 +15,12 @@
     width: 480px;
 }
 
+.text:hover {
+    box-shadow: 0px 0px 8px #6590FD;
+    transform: scale(1.01);
+    border-radius: 4px;
+}
+
 .weather-search-bar {
     display: flex;
     flex-direction: column-reverse;
