@@ -86,8 +86,8 @@ export function Weather() {
           </div>
         </div>
         <div className = "weather-video">
-            <Video src="FloatingIsland" />
-            <p className = "weather-video-name">{items.name}, {items.sys.country}</p>
+          <p className = "weather-video-name">{items.name}, {items.sys.country}</p>
+          <Video className = "weather-video-animation" src="FloatingIsland" />
         </div>
       </form>);
   }
