@@ -2,6 +2,7 @@ import i18n from 'i18next';
 import k from "./i18n/keys";
 import moment from 'moment';
 import React, { useState } from 'react';
+import { Video } from './Video';
 import './css/weather.css';
 import search from './icons/search.svg';
 
@@ -76,7 +77,7 @@ export function Weather() {
               <p className = "weather-value-key">{i18n.t(k.WIND)}</p>
               <p>{items.wind.speed} {i18n.t(k.UNITSPEED)}</p>
             </div>
-            {items.rain && 
+            {items.rain &&
             <div className = "weather-value">
               <p className = "weather-value-key">{i18n.t(k.RAIN)}</p>
               <p>{items.rain["1h"] || items.rain["3h"]} mm</p>
@@ -85,6 +86,7 @@ export function Weather() {
           </div>
         </div>
         <div className = "weather-video">
+            <Video src="FloatingIsland" />
             <p className = "weather-video-name">{items.name}, {items.sys.country}</p>
         </div>
       </form>);
