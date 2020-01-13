@@ -52,11 +52,11 @@ module.exports = {
   [k.DEAD]: "gestorben",
   [k.RODED]: "gefällt",
 
-  [k.QUOTE01]: "",
-  [k.QUOTE02]: "",
-  [k.QUOTE03]: "",
-  [k.QUOTE04]: "",
-  [k.QUOTE05]: "",
+  [k.QUOTE01]: "Platzhalter",
+  [k.QUOTE02]: "Platzhalter",
+  [k.QUOTE03]: "Platzhalter",
+  [k.QUOTE04]: "Platzhalter",
+  [k.QUOTE05]: "Platzhalter",
 
   [k.QUOTE01PERSON]: "Barack Obama",
   [k.QUOTE02PERSON]: "Cary Kennedy",
