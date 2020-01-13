@@ -20,15 +20,13 @@ function App(props) {
       <Section className="hero" button="button call-to-action" action = {() => scrollTo("space")} symbol="arrow_down"/>
       <Section className="space" src="TransparentBG" />
       <Section className="ozone" />
-      <Section className="air"/>
+      <Section className="pollution"/>
       <Section className="mountains"/>
       <Section className="weather"/>
-      <Section className="polution"/>
       <Section className="forests"/>
       <Section className="animals"/>
       <Section className="ice"/>
       <Section className="plastic"/>
-      <Section className="coral"/>
       <Section className="time"/>
       <Section className="team"/>
     </div>

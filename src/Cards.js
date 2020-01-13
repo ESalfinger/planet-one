@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import Animal from './Animal';
-import Mountain from './Mountain';
 import animals from './strings/animals.json';
-import mountains from './strings/mountains.json';
 import forward from './icons/forward.svg';
 import back from './icons/back.svg';
 
@@ -33,20 +31,6 @@ export function Cards(props) {
             </div>);
 
   }
-  return (
-    <div className='cards'>
-            <div className="control back" onClick={() => switchCard("back", "mountain")}>
-                <img src={back} alt="back"></img>
-            </div>
-            {mountains.map(mountain => {
-        return <Mountain key={mountain.id} id={mountain.id} name={mountain.name} country={mountain.country} />;
-      })}
-
-            <div className="control forward" onClick={() => switchCard("forward", "mountain")}>
-                <img src={forward} alt="forward"></img>
-            </div>
-        </div>);
-
 }
 
 function switchCard(direction, type) {

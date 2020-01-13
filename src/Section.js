@@ -19,7 +19,7 @@ export function Section(props) {
       </div>
       {props.src && <Video src={props.src} />}
       {props.button && <Button action={props.action} target={props.target} symbol={props.symbol} className={props.button} buttonText={props.buttonText} />}
-      {(props.className === "mountains" || props.className === "animals") && <Cards type={props.className} />}
+      {(props.className === "animals") && <Cards type={props.className} />}
       {props.className === "weather" && <Weather />}
       {props.className === "time" && <Time />}
     </div>);

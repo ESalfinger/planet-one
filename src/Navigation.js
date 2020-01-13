@@ -20,15 +20,13 @@ export function Navigation() {
                 <div className = 'nav-links'>
                     <p className='nav-link' onClick = {() => scrollTo("hero")}>{strings.hero}</p>
                     <p className='nav-link' onClick = {() => scrollTo("space")}>{strings.space}</p>
-                    <p className='nav-link' onClick = {() => scrollTo("air")}>{strings.air}</p>
+                    <p className='nav-link' onClick = {() => scrollTo("pollution")}>{strings.polution}</p>
                     <p className='nav-link' onClick = {() => scrollTo("mountains")}>{strings.mountains}</p>
                     <p className='nav-link' onClick = {() => scrollTo("weather")}>{strings.weather}</p>
-                    <p className='nav-link' onClick = {() => scrollTo("polution")}>{strings.polution}</p>
                     <p className='nav-link' onClick = {() => scrollTo("forests")}>{strings.forests}</p>
                     <p className='nav-link' onClick = {() => scrollTo("animals")}>{strings.animals}</p>
                     <p className='nav-link' onClick = {() => scrollTo("ice")}>{strings.ice}</p>
                     <p className='nav-link' onClick = {() => scrollTo("plastic")}>{strings.plastic}</p>
-                    <p className='nav-link' onClick = {() => scrollTo("coral")}>{strings.coral}</p>
                     <p className='nav-link' onClick = {() => scrollTo("time")}>{strings.time}</p>
                     <p className='nav-link' onClick = {() => scrollTo("team")}>{strings.team}</p>
                 </div>
