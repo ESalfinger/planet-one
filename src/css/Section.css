@@ -1,24 +1,8 @@
 .hero {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    align-items: center;
-    background: rgb(85,30,175);
-    background: linear-gradient(180deg, rgba(85,30,175,1) 0%, rgba(75,33,175,1) 100%);
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 1;
     grid-row-end: 2;
-}
-
-.hero h1 {
-    margin-bottom: 24px;
-    color: white;
-    font-family: 'Baloo Bhaijaan';
-}
-
-.hero p {
-    color: white;
 }
 
 .space {
@@ -37,7 +21,7 @@
     grid-row-end: 4;
 }
 
-.air {
+.pollution {
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 4;
@@ -45,14 +29,10 @@
 }
 
 .mountains {
-    grid-column-start: 2;
-    grid-column-end: 12;
+    grid-column-start: 1;
+    grid-column-end: 13;
     grid-row-start: 5;
     grid-row-end: 6;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    border: solid green 3px;
 }
 
 .weather {
@@ -62,13 +42,6 @@
     grid-row-end: 7;
     display: flex;
     justify-content: center;
-}
-
-.polution {
-    grid-column-start: 1;
-    grid-column-end: 13;
-    grid-row-start: 7;
-    grid-row-end: 8;
 }
 
 .forests {
@@ -81,41 +54,34 @@
 .animals {
     grid-column-start: 1;
     grid-column-end: 13;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.ice {
+    grid-column-start: 1;
+    grid-column-end: 13;
     grid-row-start: 9;
     grid-row-end: 10;
 }
 
-.ice {
+.plastic {
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 10;
     grid-row-end: 11;
 }
 
-.plastic {
+.time {
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 11;
     grid-row-end: 12;
 }
 
-.coral {
+.team {
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 12;
     grid-row-end: 13;
-}
-
-.time {
-    grid-column-start: 1;
-    grid-column-end: 13;
-    grid-row-start: 13;
-    grid-row-end: 14;
-}
-
-.team {
-    grid-column-start: 1;
-    grid-column-end: 13;
-    grid-row-start: 14;
-    grid-row-end: 15;
 }

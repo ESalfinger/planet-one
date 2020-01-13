@@ -9,9 +9,6 @@ import './css/Cards.css';
 export function Cards(props) {
 
   useEffect(() => {
-    let startM = document.getElementsByClassName('mountain')[0];
-    startM.classList.add('active');
-
     let startA = document.getElementsByClassName('animal')[0];
     startA.classList.add('active');
   });

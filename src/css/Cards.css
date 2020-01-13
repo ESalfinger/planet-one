@@ -15,7 +15,7 @@
     align-items: center;
 }
 
-.animal, .mountain {
+.animal {
     border: solid red 2px;
     display: none;
 }

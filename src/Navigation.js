@@ -1,6 +1,7 @@
 import React from 'react';
 import open from './icons/forward.svg';
-import strings from './strings/navigation.json';
+import i18n from 'i18next';
+import k from "./i18n/keys";
 
 import './css/Navigation.css';
 
@@ -18,17 +19,18 @@ export function Navigation() {
               <button onClick={() => changeLanguage("de")}>DE</button>
               <button onClick={() => changeLanguage("en")}>EN</button>
                 <div className = 'nav-links'>
-                    <p className='nav-link' onClick = {() => scrollTo("hero")}>{strings.hero}</p>
-                    <p className='nav-link' onClick = {() => scrollTo("space")}>{strings.space}</p>
-                    <p className='nav-link' onClick = {() => scrollTo("pollution")}>{strings.polution}</p>
-                    <p className='nav-link' onClick = {() => scrollTo("mountains")}>{strings.mountains}</p>
-                    <p className='nav-link' onClick = {() => scrollTo("weather")}>{strings.weather}</p>
-                    <p className='nav-link' onClick = {() => scrollTo("forests")}>{strings.forests}</p>
-                    <p className='nav-link' onClick = {() => scrollTo("animals")}>{strings.animals}</p>
-                    <p className='nav-link' onClick = {() => scrollTo("ice")}>{strings.ice}</p>
-                    <p className='nav-link' onClick = {() => scrollTo("plastic")}>{strings.plastic}</p>
-                    <p className='nav-link' onClick = {() => scrollTo("time")}>{strings.time}</p>
-                    <p className='nav-link' onClick = {() => scrollTo("team")}>{strings.team}</p>
+                    <p className='nav-link' onClick = {() => scrollTo("hero")}>{i18n.t(k['HEROTITLE'])}</p>
+                    <p className='nav-link' onClick = {() => scrollTo("space")}>{i18n.t(k['SPACETITLE'])}</p>
+                    <p className='nav-link' onClick = {() => scrollTo("ozone")}>{i18n.t(k['OZONETITLE'])}</p>
+                    <p className='nav-link' onClick = {() => scrollTo("pollution")}>{i18n.t(k['POLLUTIONTITLE'])}</p>
+                    <p className='nav-link' onClick = {() => scrollTo("mountains")}>{i18n.t(k['MOUNTAINSTITLE'])}</p>
+                    <p className='nav-link' onClick = {() => scrollTo("weather")}>{i18n.t(k['WEATHERTITLE'])}</p>
+                    <p className='nav-link' onClick = {() => scrollTo("forests")}>{i18n.t(k['FORESTSTITLE'])}</p>
+                    <p className='nav-link' onClick = {() => scrollTo("animals")}>{i18n.t(k['ANIMALSTITLE'])}</p>
+                    <p className='nav-link' onClick = {() => scrollTo("ice")}>{i18n.t(k['ICETITLE'])}</p>
+                    <p className='nav-link' onClick = {() => scrollTo("plastic")}>{i18n.t(k['PLASTICTITLE'])}</p>
+                    <p className='nav-link' onClick = {() => scrollTo("time")}>{i18n.t(k['TIMETITLE'])}</p>
+                    <p className='nav-link' onClick = {() => scrollTo("team")}>{i18n.t(k['TEAMTITLE'])}</p>
                 </div>
             </div>
         </div>
