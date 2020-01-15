@@ -18,7 +18,7 @@ function App(props) {
     <div className="App">
       <Navigation />
       <Section className="hero" button="button call-to-action" action = {() => scrollTo("space")} symbol="arrow_down"/>
-      <Section className="space" src="TransparentBG" />
+      <Section className="space" src="Planet" />
       <Section className="ozone" />
       <Section className="pollution"/>
       <Section className="mountains"/>
