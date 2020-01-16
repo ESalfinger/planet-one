@@ -129,20 +129,20 @@
 
 .weather-video video {
     will-change: auto;
-    width: 150%;
+    width: 140%;
     height: auto;
-    animation: up-down 3s infinite ease-in-out;
+    animation: up-down 5s infinite ease-in-out;
 }
 
 @keyframes up-down {
     0% {
-        transform: translateY(5%);
+        transform: translateY(2%);
     }
     50% {
-        transform: translateY(10%);
+        transform: translateY(5%);
     }
     100% {
-        transform: translateY(5%);
+        transform: translateY(2%);
     }
 }
 
