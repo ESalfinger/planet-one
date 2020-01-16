@@ -4,7 +4,7 @@ module.exports = {
     [k.HEROTITLE]: "Start",
     [k.HEROTEXT]:
      "",
-    [k.SPACETITLE]: "Space",
+    [k.SPACETITLE]: "",
     [k.SPACETEXT]:
       "As the exploration and use of space progress, so does the amount of man-made space debris. At the moment, there are already more than 6 tons of garbage over the earth's atmosphere. The problem with this is the speed of the single particles, causing even the smallest of objects to have a devastating impact on, for example, a satellite. Besides, a collision could cause a chain reaction, resulting in a large number of continuing collisions.",
     [k.OZONETITLE]: "Ozone",

@@ -3,7 +3,7 @@ const k = require("./keys");
 module.exports = {
   [k.HEROTITLE]: "Start",
   [k.HEROTEXT]: "",
-  [k.SPACETITLE]: "Weltall",
+  [k.SPACETITLE]: "",
   [k.SPACETEXT]: "Mit der fortschreitenden Erkundung und Nutzung des Weltalls, schreitet auch die Menge an von Menschen geschaffenem Weltraummüll voran. Zum aktuellen Zeitpunkt befinden sich bereits über 6 Tonnen Müll über der Erdatmosphäre. Das Problem darin besteht in der Geschwindigkeit der einzigen Partikel, wodurch bereits kleinste Objekte eine verheerende Wirkung bei einem Aufschlag auf beispielsweise einen Satelliten verursachen. Zudem kommt, dass ein Zusammenstoß eine Kettenreaktion hervorrufen könnte, welche zu einer großen Anzahl an fortführenden Kollisionen führt.",
   [k.OZONETITLE]: "Ozon Schicht",
   [k.OZONETEXT]: "Die Ozonschicht sorgt in der Stratosphäre dafür, dass ein Großteil der ultravioletten Sonnenstrahlung absorbiert wird und hat nur indirekt etwas mit dem Klimawandel zu tun, auch wenn diese Begriffe oft miteinander verwendet werden. Das erste Ozonloch wurde 1960 über der Antarktis entdeckt. Auch über Australien und Neuseeland befindet sich ein Ozonloch, welches zu einer hohen Anfälligkeit für Erkrankungen wie Hautkrebs führt. Als Gegenmaßnahme wurde 1987 das FCKW-Verbot eingeführt. Laut einem Bericht der Weltorganisation für Meteorologie besteht die Möglichkeit, dass sich die Ozonschicht bis 2050 weitgehend erholt.",
