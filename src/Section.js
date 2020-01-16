@@ -10,6 +10,7 @@ import spaceBG from './images/spaceBackground.jpg';
 import "./css/Section.css";
 import "./css/hero.css";
 import "./css/space.css";
+import "./css/ozone.css";
 
 import i18n from 'i18next';
 import k from "./i18n/keys";
