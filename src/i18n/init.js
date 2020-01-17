@@ -5,7 +5,7 @@ const german = require("./german");
 
 i18next.init({
   lng: localStorage.getItem("lng") || "de",
-  debug: false,
+  debug: true,
   resources: {
     en: { translation: english },
     de: { translation: german }

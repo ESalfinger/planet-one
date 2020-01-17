@@ -6,7 +6,7 @@ module.exports = {
      "",
     [k.SPACETITLE]: "",
     [k.SPACETEXT]:
-      "As the exploration and use of space progress, so does the amount of man-made space debris. At the moment, there are already more than 6 tons of garbage over the earth's atmosphere. The problem with this is the speed of the single particles, causing even the smallest of objects to have a devastating impact on, for example, a satellite. Besides, a collision could cause a chain reaction, resulting in a large number of continuing collisions.",
+      "As the <strong>exploration</strong> and use of space progress, so does the amount of man-made space debris. At the moment, there are already more than 6 tons of garbage over the earth's atmosphere. The problem with this is the speed of the single particles, causing even the smallest of objects to have a devastating impact on, for example, a satellite. Besides, a collision could cause a chain reaction, resulting in a large number of continuing collisions.",
     [k.OZONETITLE]: "Ozone",
     [k.OZONETEXT]:
       "The ozone layer in the stratosphere ensures that a large part of the ultraviolet solar radiation is absorbed and has only indirectly to do with climate change, even if these terms are often used together. The first ozone hole was discovered in 1960 over the Antarctic. Also over Australia and New Zealand is an ozone hole, which leads to high susceptibility to diseases such as skin cancer. As a countermeasure, the CFC ban was introduced in 1987. According to a report by the World Meteorological Organization, there is a chance that the ozone layer will largely recover by 2050.",
