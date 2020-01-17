@@ -16,11 +16,12 @@
 }
 
 .quote-text {
-    font-weight: 700;
     font-size: 24px;
     margin-bottom: 24px;
+    font-weight: 400;
 }
 
 .quote-person {
     align-self: flex-end;
+    font-weight: 300;
 }
