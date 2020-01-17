@@ -21,7 +21,7 @@ function App(props) {
       <Section className="space" src="Planet" />
       <Section className="ozone" />
       <Section className="pollution"/>
-      <Section className="mountains"/>
+      <Section className="mountains" src="Mountain"/>
       <Section className="weather"/>
       <Section className="forests"/>
       <Section className="animals"/>

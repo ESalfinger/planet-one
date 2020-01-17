@@ -19,3 +19,8 @@
 .mountains .text p strong {
     font-weight: 500;
 }
+
+.mountains .video {
+    align-self: flex-end;
+    width: 60vw;
+}
