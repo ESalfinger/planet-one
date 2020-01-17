@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.17",
     "i18next": "^19.0.0",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",

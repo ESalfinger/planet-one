@@ -7,6 +7,7 @@
 
 .space {
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
     grid-column-start: 1;
     grid-column-end: 13;
@@ -15,6 +16,9 @@
 }
 
 .ozone {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 3;
@@ -22,6 +26,9 @@
 }
 
 .pollution {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 4;
@@ -30,6 +37,8 @@
 
 .mountains {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 5;
