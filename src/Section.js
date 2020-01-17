@@ -15,7 +15,7 @@ import "./css/pollution.css";
 import "./css/mountains.css";
 
 import i18n from 'i18next';
-const k = require("./i18n/keys");
+import k from "./i18n/keys";
 
 export function Section(props) {
   function getHTML() {

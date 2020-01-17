@@ -1,7 +1,7 @@
 import i18next from "i18next";
 
-const english = require("./english");
-const german = require("./german");
+import english from "./english";
+import german from "./german";
 
 i18next.init({
   lng: localStorage.getItem("lng") || "de",

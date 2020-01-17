@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   HEROTITLE: "HEROTITLE",
   HEROTEXT: "HEROTEXT",
   SPACETITLE: "SPACETITLE",

@@ -1,6 +1,6 @@
-const k = require("./keys");
+import k from "./keys";
 
-module.exports = {
+export default {
   [k.HEROTITLE]: "Start",
   [k.HEROTEXT]: "",
   [k.SPACETITLE]: "Space",
