@@ -16,7 +16,7 @@ function App(props) {
     sessionStorage.setItem("timestamp", moment());
   });
 
-  const anchors = [
+  const toolTips = [
     i18n.t(k['HEROTITLE']),
     i18n.t(k['SPACETITLE']),
     i18n.t(k['OZONETITLE']),
@@ -35,20 +35,11 @@ function App(props) {
     <ReactFullpage
     verticalCentered = {false}
     fitToSection = {false}
-    anchors = {anchors}
     showActiveTooltip = {true}
     navigation
     navigationPosition = "left"
-    navigationTooltips={anchors}
-    afterLoad = {(origin, destination, direction) => {
-      if (origin.anchor === i18n.t(k['SPACETITLE'])){
-      }
-    }}
-    onLeave={(origin, destination, direction) => {
-      console.log("onLeave event", { origin, destination, direction });
-    }}
+    navigationTooltips={toolTips}
     render = {({ state, fullpageApi }) => {
-      console.log("render prop change", state, fullpageApi); // eslint-disable-line no-console
       return (
       <div className="App">
         <Section className="hero" button="button call-to-action" action = {() => scrollTo("space")} symbol="arrow_down"/>

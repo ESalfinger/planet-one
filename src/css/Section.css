@@ -95,3 +95,15 @@
     grid-row-start: 12;
     grid-row-end: 13;
 }
+
+div#fp-nav ul li .fp-tooltip {
+  color: #333
+}
+
+.fp-viewing-0  #fp-nav ul li a span, .fp-viewing-1  #fp-nav ul li a span, .fp-viewing-2 #fp-nav ul li a span{
+     background: white;
+}
+
+.fp-viewing-0  #fp-nav ul li .fp-tooltip, .fp-viewing-1  #fp-nav ul li .fp-tooltip, .fp-viewing-2 #fp-nav ul li .fp-tooltip{
+     color: white;
+}
