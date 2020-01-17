@@ -2,7 +2,7 @@ const k = require("./keys");
 
 module.exports = {
   [k.HEROTITLE]: "Start",
-  [k.HEROTEXT]: "",
+  [k.HEROTEXT]: "Weltall",
   [k.SPACETITLE]: "",
   [k.SPACETEXT]: "Mit der fortschreitenden Erkundung und Nutzung des Weltalls, schreitet auch die Menge an von Menschen geschaffenem Weltraummüll voran. Zum aktuellen Zeitpunkt befinden sich bereits über 6 Tonnen Müll über der Erdatmosphäre. Das Problem darin besteht in der Geschwindigkeit der einzigen Partikel, wodurch bereits kleinste Objekte eine verheerende Wirkung bei einem Aufschlag auf beispielsweise einen Satelliten verursachen. Zudem kommt, dass ein Zusammenstoß eine Kettenreaktion hervorrufen könnte, welche zu einer großen Anzahl an fortführenden Kollisionen führt.",
   [k.OZONETITLE]: "Ozon Schicht",
