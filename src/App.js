@@ -2,7 +2,6 @@ import React, {useEffect} from 'react';
 import moment from 'moment';
 import 'moment/locale/de';
 import {Section} from './Section';
-import {Navigation} from './Navigation';
 import ReactFullpage from "@fullpage/react-fullpage";
 import i18n from 'i18next';
 import k from "./i18n/keys";
@@ -22,7 +21,7 @@ function App(props) {
     "white",
     "lightblue",
     "lightblue",
-    "lightblue",
+    "white",
     "green",
     "lightgreen",
     "#DCF3FF",
