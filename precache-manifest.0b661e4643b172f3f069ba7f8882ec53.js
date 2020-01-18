@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "feb2a14b6f928f516c926663068d547b",
+    "revision": "ba769036cd0b672ead3e9356baea20eb",
     "url": "/project-klima/index.html"
   },
   {
-    "revision": "42752133eab3dbd219b4",
-    "url": "/project-klima/static/css/main.719dc1be.chunk.css"
+    "revision": "95d4ce30e993e02e65b3",
+    "url": "/project-klima/static/css/main.7267cb9d.chunk.css"
   },
   {
     "revision": "1d4834f0f8045a5b0b4e",
     "url": "/project-klima/static/js/2.3d90c632.chunk.js"
   },
   {
-    "revision": "42752133eab3dbd219b4",
-    "url": "/project-klima/static/js/main.a1bb7802.chunk.js"
+    "revision": "95d4ce30e993e02e65b3",
+    "url": "/project-klima/static/js/main.a5dc7c0a.chunk.js"
   },
   {
     "revision": "25428cf814c1dc878c5a",
@@ -32,16 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/project-klima/static/media/Car_drop.0b444b8d.webm"
   },
   {
+    "revision": "0b827d43818fe0baa0280c0c14bee5ac",
+    "url": "/project-klima/static/media/FloatingIsland_Day_Clear.0b827d43.webm"
+  },
+  {
     "revision": "6313ca59f484dadde186270bf1f59c74",
-    "url": "/project-klima/static/media/FloatingIsland_Cloudy.6313ca59.webm"
+    "url": "/project-klima/static/media/FloatingIsland_Day_Cloudy.6313ca59.webm"
   },
   {
     "revision": "454caf7cbdd3f97afe3538b8aa4e0be5",
-    "url": "/project-klima/static/media/FloatingIsland_Snow.454caf7c.webm"
-  },
-  {
-    "revision": "0b827d43818fe0baa0280c0c14bee5ac",
-    "url": "/project-klima/static/media/FloatingIsland_Sun.0b827d43.webm"
+    "url": "/project-klima/static/media/FloatingIsland_Day_Snow.454caf7c.webm"
   },
   {
     "revision": "7944399c244951debd2c3fd2f3925478",
