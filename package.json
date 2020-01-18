@@ -10,6 +10,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-fullpage": "^0.1.19",
     "react-i18next": "^11.2.1",
     "react-on-screen": "^2.1.1",
     "react-router-dom": "^5.1.2",
