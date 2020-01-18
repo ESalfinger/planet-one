@@ -37,14 +37,22 @@ export function Weather() {
   const handleChange = event => setCity(event.target.value);
 
   const getTime = () => {
-    return moment().utcOffset(items.timezone/60).format("LT").toString();
+    return moment().utcOffset(items.timezone/60);
   }
 
   const getSrc = () => {
     if(isLoaded) {
-      let time = "Day";
+      let timeString = "Day";
+      let time = getTime();
+      let sunset = moment.unix(items.sys.sunset);
+      let sunrise = moment.unix(items.sys.sunrise);
       let id = Number(String(items.weather[0].id).charAt(0));
       let weather = "Clear";
+
+      if(sunset < time || sunrise > time) {
+          //TODO change to Night when available
+        timeString = "Day";
+      }
 
       if ([2, 3, 5].includes(id)) {
         //TODO change to Rain when available
@@ -57,7 +65,7 @@ export function Weather() {
         weather = "Clear";
       }
 
-      return "FloatingIsland_" + time + "_" + weather;
+      return "FloatingIsland_" + timeString + "_" + weather;
     }
   }
 
@@ -88,7 +96,7 @@ export function Weather() {
           <div className = "weather-values">
             <div className = "weather-location">
               <p className = "weather-location-name">{items.name}, {items.sys.country}</p>
-              <p className = "weather-location-time">{i18n.t(k.TIME)} {getTime()}</p>
+              <p className = "weather-location-time">{i18n.t(k.TIME)} {getTime().format("LT").toString()}</p>
             </div>
             <div className = "weather-value">
               <p className = "weather-value-key">{i18n.t(k.TEMP)}</p>
