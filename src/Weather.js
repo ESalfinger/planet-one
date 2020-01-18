@@ -36,6 +36,31 @@ export function Weather() {
 
   const handleChange = event => setCity(event.target.value);
 
+  const getTime = () => {
+    return moment().utcOffset(items.timezone/60).format("LT").toString();
+  }
+
+  const getSrc = () => {
+    if(isLoaded) {
+      let time = "Day";
+      let id = Number(String(items.weather[0].id).charAt(0));
+      let weather = "Clear";
+
+      if ([2, 3, 5].includes(id)) {
+        //TODO change to Rain when available
+        weather = "Snow";
+      } else if (id === 6) {
+        weather = "Snow";
+      } else if (items.weather[0].id > 800 || id === 7) {
+        weather = "Cloudy";
+      } else {
+        weather = "Clear";
+      }
+
+      return "FloatingIsland_" + time + "_" + weather;
+    }
+  }
+
   if (!isLoaded) {
     return (
       <form onSubmit={fetchWeather} className = "weather-search">
@@ -63,7 +88,7 @@ export function Weather() {
           <div className = "weather-values">
             <div className = "weather-location">
               <p className = "weather-location-name">{items.name}, {items.sys.country}</p>
-              <p className = "weather-location-time">{i18n.t(k.TIME)} {moment().utcOffset(items.timezone/60).format("LT").toString()}</p>
+              <p className = "weather-location-time">{i18n.t(k.TIME)} {getTime()}</p>
             </div>
             <div className = "weather-value">
               <p className = "weather-value-key">{i18n.t(k.TEMP)}</p>
@@ -87,7 +112,7 @@ export function Weather() {
         </div>
         <div className = "weather-video">
           <p className = "weather-video-name">{items.name}, {items.sys.country}</p>
-          <Video className = "weather-video-animation" src="FloatingIsland_Sun" />
+          <Video className = "weather-video-animation" src={getSrc()} />
         </div>
       </form>);
   }
