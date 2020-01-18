@@ -16,6 +16,21 @@ function App(props) {
     sessionStorage.setItem("timestamp", moment());
   });
 
+  const colors = [
+    "#12131D",
+    "#12131D",
+    "white",
+    "lightblue",
+    "lightblue",
+    "lightblue",
+    "green",
+    "lightgreen",
+    "#DCF3FF",
+    "#0077be",
+    "#333",
+    "#333"
+  ];
+
   const toolTips = [
     i18n.t(k['HEROTITLE']),
     i18n.t(k['SPACETITLE']),
@@ -33,6 +48,7 @@ function App(props) {
 
   return (
     <ReactFullpage
+    sectionsColor={colors}
     verticalCentered = {false}
     fitToSection = {false}
     showActiveTooltip = {true}
