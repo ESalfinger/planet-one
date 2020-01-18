@@ -52,11 +52,11 @@ export default {
   [k.DEAD]: "gestorben",
   [k.RODED]: "gefällt",
 
-  [k.QUOTE01]: "Platzhalter",
-  [k.QUOTE02]: "Platzhalter",
-  [k.QUOTE03]: "Platzhalter",
-  [k.QUOTE04]: "Platzhalter",
-  [k.QUOTE05]: "Platzhalter",
+  [k.QUOTE01]: "\"Die Umstellung auf eine sauberere Energiewirtschaft wird nicht über Nacht erfolgen und es werden schwierige Entscheidungen erforderlich sein. Aber die Debatte ist beigelegt. Der Klimawandel ist eine Tatsache.\"",
+  [k.QUOTE02]: "\"Der Klimawandel ist vielleicht die größte Bedrohung für die Menschheit überhaupt. Die globalen Temperaturen steigen mit beispielloser Geschwindigkeit, verursachen Dürre und Waldbrände und beeinträchtigen die menschliche Gesundheit.\"",
+  [k.QUOTE03]: "\"Es ist keine Frage, dass der Klimawandel stattfindet. Der einzige fragliche Punkt ist, welche Rolle die Menschen dabei spielen.\"",
+  [k.QUOTE04]: "\"Einige Wissenschaftler glauben, dass der Klimawandel die Ursache für das beispiellose Abschmelzen des Nordpols ist und diese sehr unsicheren Wettermuster beeinflusst. Ich denke, wir sollten diesen Wissenschaftlern und Experten zuhören.\"",
+  [k.QUOTE05]: "\"Der Klimawandel ist ein schreckliches Problem und muss unbedingt gelöst werden. Es verdient eine große Priorität.\"",
 
   [k.QUOTE01PERSON]: "Barack Obama",
   [k.QUOTE02PERSON]: "Cary Kennedy",
