@@ -14,9 +14,6 @@ export default {
   [k.POLLUTIONTITLE]: "Luftverschmutzung",
   [k.POLLUTIONTEXT]:"Ein weiteres von Menschen verursachtes Problem, befasst sich mit der Luftverschmutzung in den Städten. Diese stellt langfristig ein bedrohliches Gesundheitsrisiko für Betroffene dar und kann zu verschiedenen Krebserkrankungen führen. Ungefähr 7 Millionen Todesfälle jährlich sollen darauf zurück zu führen sein. Als Gegenmaßnahme dient das Pariser Abkommen, welches als Zusammenschluss dient, um die Erderwärmung  auf einem niedrigen Niveau zu halten. Dies alleine reicht jedoch nicht aus.",
   [k.WEATHERTITLE]: "Wetter",
-  [k.FORESTSTITLE]: "Wälder",
-  [k.FORESTSTEXT]:
-    "Ein wichtiges Thema ist auch die Rodung der Regenwälder, da in den Wäldern große Mengen an CO2 gespeichert sind, welche bei der Abholzung frei gegeben werden. Dazu kommt, dass die Bäume Grundwasser an die Luft weitergeben und somit zu einem ausgeglichenen Wasserkreislauf führen. Nach der Rodung solcher Wälder entstehen dürre Landschaften, auf denen nicht einfach wieder ein Wald gepflanzt werden kann. Da durch häufigen Regen in den Tropen die nährstoffreichen Erdschichten abgetragen werden. Zudem werden dadurch auch täglich Pflanzen und Tierarten ausgerottet.",
   [k.ANIMALSTITLE]: "Tiere",
   [k.ANIMALSTEXT]: "",
   [k.ICETITLE]: "Meeresspiegel",

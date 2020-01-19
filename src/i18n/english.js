@@ -17,8 +17,6 @@ export default {
     [k.POLLUTIONTITLE]: "Pollution",
     [k.POLLUTIONTEXT]: "Another man-made problem deals with air pollution in cities. In the long term, this poses a threatening health risk for those affected and <strong>can lead to various cancers.</strong><br><br> About <strong>7 million deaths a year</strong> are said to be due to it. As a countermeasure serves the Paris Agreement, which serves as an alliance to keep global warming at a low level. Unfortunately, this alone is not enough.",
     [k.WEATHERTITLE]: "Weather",
-    [k.FORESTSTITLE]: "Forests",
-    [k.FORESTSTEXT]: "An important topic is also the clearing away of the rainforests since in the forests large quantities of CO2 are stored, which are released during deforestation. Besides, the trees transmit groundwater to the air and thus lead to a balanced water cycle. After the clearing of such forests, arid landscapes arise on which not just a forest can be planted again. Because of frequent rain in the tropics, the needed nutrient-rich earth layers are removed. Also,  plants and animal species get eradicated daily.",
     [k.ANIMALSTITLE]: "Animal",
     [k.ANIMALSTEXT]: "",
     [k.ICETITLE]: "Ice",
