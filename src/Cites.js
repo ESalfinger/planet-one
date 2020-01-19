@@ -6,7 +6,7 @@ export function Cites() {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <div>
+    <div className = 'sources-container'>
       <div className = 'sources-trigger' onClick={() => {showMore === true ? setShowMore(false) : setShowMore(true)}}>
         {showMore === true && <p>Show sources</p>}
         {showMore === false && <p>Hide sources</p>}

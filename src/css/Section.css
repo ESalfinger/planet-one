@@ -54,7 +54,7 @@
     justify-content: center;
 }
 
-.forests {
+.animals {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -64,7 +64,7 @@
     grid-row-end: 8;
 }
 
-.animals {
+.ice {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -74,7 +74,7 @@
     grid-row-end: 9;
 }
 
-.ice {
+.plastic {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -84,7 +84,7 @@
     grid-row-end: 10;
 }
 
-.plastic {
+.time {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -94,7 +94,7 @@
     grid-row-end: 11;
 }
 
-.time {
+.team {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -102,16 +102,6 @@
     grid-column-end: 13;
     grid-row-start: 11;
     grid-row-end: 12;
-}
-
-.team {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    grid-column-start: 1;
-    grid-column-end: 13;
-    grid-row-start: 12;
-    grid-row-end: 13;
 }
 
 div#fp-nav ul li .fp-tooltip {

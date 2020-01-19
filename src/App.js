@@ -22,7 +22,6 @@ function App(props) {
     "lightblue",
     "lightblue",
     "white",
-    "green",
     "lightgreen",
     "#DCF3FF",
     "#0077be",
@@ -37,7 +36,6 @@ function App(props) {
     i18n.t(k['POLLUTIONTITLE']),
     i18n.t(k['MOUNTAINSTITLE']),
     i18n.t(k['WEATHERTITLE']),
-    i18n.t(k['FORESTSTITLE']),
     i18n.t(k['ANIMALSTITLE']),
     i18n.t(k['ICETITLE']),
     i18n.t(k['PLASTICTITLE']),
@@ -63,7 +61,6 @@ function App(props) {
         <Section className="pollution"/>
         <Section className="mountains" src="Mountain"/>
         <Section className="weather"/>
-        <Section className="forests"/>
         <Section className="animals"/>
         <Section className="ice"/>
         <Section className="plastic"/>
