@@ -5,6 +5,7 @@ import { Cards } from './Cards';
 import { Weather } from './Weather';
 import { Time } from './Time';
 import { Quote } from './Quote';
+import { Cites } from './Cites';
 import spaceBG from './images/spaceBackground.jpg';
 
 import "./css/Section.css";
@@ -33,5 +34,6 @@ export function Section(props) {
       {(props.className === "animals") && <Cards type={props.className} />}
       {props.className === "weather" && <Weather />}
       {props.className === "time" && <Time />}
+      {props.className === "team" && <Cites />}
     </div>);
 }
