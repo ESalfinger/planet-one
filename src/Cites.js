@@ -8,10 +8,10 @@ export function Cites() {
   return (
     <div className = 'sources-container'>
       <div className = 'sources-trigger' onClick={() => {showMore === true ? setShowMore(false) : setShowMore(true)}}>
-        {showMore === true && <p>Show sources</p>}
-        {showMore === false && <p>Hide sources</p>}
+        {showMore === true && <p>Hide sources</p>}
+        {showMore === false && <p>Show sources</p>}
       </div>
-      {showMore && 
+      {showMore &&
       <div className = 'sources'>
         {sources.map(source => {
           return (
