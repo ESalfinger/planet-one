@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/project-klima/static/css/main.21819d9a.chunk.css",
-    "main.js": "/project-klima/static/js/main.65ef931d.chunk.js",
-    "main.js.map": "/project-klima/static/js/main.65ef931d.chunk.js.map",
+    "main.js": "/project-klima/static/js/main.9038fdb6.chunk.js",
+    "main.js.map": "/project-klima/static/js/main.9038fdb6.chunk.js.map",
     "runtime-main.js": "/project-klima/static/js/runtime-main.a33e6abb.js",
     "runtime-main.js.map": "/project-klima/static/js/runtime-main.a33e6abb.js.map",
     "static/js/2.cd1c72dc.chunk.js": "/project-klima/static/js/2.cd1c72dc.chunk.js",
     "static/js/2.cd1c72dc.chunk.js.map": "/project-klima/static/js/2.cd1c72dc.chunk.js.map",
     "index.html": "/project-klima/index.html",
-    "precache-manifest.9465b031c553919aae68aee73893a834.js": "/project-klima/precache-manifest.9465b031c553919aae68aee73893a834.js",
+    "precache-manifest.4ebe405cffa304b221712bcf5206d745.js": "/project-klima/precache-manifest.4ebe405cffa304b221712bcf5206d745.js",
     "service-worker.js": "/project-klima/service-worker.js",
     "static/css/main.21819d9a.chunk.css.map": "/project-klima/static/css/main.21819d9a.chunk.css.map",
     "static/media/App.css": "/project-klima/static/media/BalooBhaijaan-Regular.ccf65f4e.ttf",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.a33e6abb.js",
     "static/js/2.cd1c72dc.chunk.js",
     "static/css/main.21819d9a.chunk.css",
-    "static/js/main.65ef931d.chunk.js"
+    "static/js/main.9038fdb6.chunk.js"
   ]
 }
