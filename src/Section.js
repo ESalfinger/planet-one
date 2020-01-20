@@ -7,6 +7,7 @@ import { Time } from './Time';
 import { Quote } from './Quote';
 import { Cites } from './Cites';
 import spaceBG from './images/spaceBackground.jpg';
+import { Language } from './Language';
 
 import "./css/Section.css";
 import "./css/hero.css";
@@ -24,6 +25,7 @@ export function Section(props) {
   }
   return (
     <div className = {"section " + props.className} id = {props.className} style = {props.className === 'space' ? {backgroundImage: 'url(' + spaceBG + ')', backgroundSize: 'cover'} : {}}>
+      <Language />
       {props.texts && props.texts.map((text) => 
         <div key = {text} className='text'>
          <p dangerouslySetInnerHTML={{__html: getHTML(text)}}></p>
