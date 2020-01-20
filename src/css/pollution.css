@@ -18,3 +18,21 @@
 .pollution .text p strong {
     font-weight: 500;
 }
+
+.pollution {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#Plane {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    width: 50vw;
+}
+
+#Car {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    width: 50vw;
+}
