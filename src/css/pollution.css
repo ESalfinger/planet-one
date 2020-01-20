@@ -2,7 +2,7 @@
     display: none;
 }
 
-.pollution .text:first-child {
+.pollution #text0 {
     z-index: 999;
     position: absolute;
     color: #12131D;
@@ -16,7 +16,7 @@
     font-weight: 200;
 }
 
-.pollution .text:nth-child(2) {
+.pollution #text1 {
     z-index: 999;
     position: absolute;
     color: #12131D;

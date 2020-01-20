@@ -26,8 +26,8 @@ export function Section(props) {
   return (
     <div className = {"section " + props.className} id = {props.className} style = {props.className === 'space' ? {backgroundImage: 'url(' + spaceBG + ')', backgroundSize: 'cover'} : {}}>
       <Language />
-      {props.texts && props.texts.map((text) => 
-        <div key = {text} className='text'>
+      {props.texts && props.texts.map((text, index) => 
+        <div id = {'text' + index} key = {text} className='text'>
          <p dangerouslySetInnerHTML={{__html: getHTML(text)}}></p>
         </div>
       )}
