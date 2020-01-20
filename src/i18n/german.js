@@ -13,6 +13,7 @@ export default {
   [k.MOUNTAINSTEXT]: "Gut sichtbar sind die Folgen des Klimawandels leider auch bei den Gebirgen und Bergen. Diese führen zu globalen Gletscherschmelzen, welche sich in Erdrutschen und Bergabgängen äußern. Nach der Schmelze findet man oft nur noch öde Gesteinswüsten, welche das Leben für viele Kleintiere und Pflanzen in diesen Gebieten unmöglich machen. Seit dem Jahr 2000 verlieren Gletscher durchschnittlich 3% ihres Volumens jedes Jahr. Allein in den Alpen könnte sich laut Berechnungen die Anzahl der Gletscher in den nächsten Jahren halbieren. Dieses Phänomen führt weltweit gültig auch zu einer Wasserknappheit dieser Regionen und bringt somit weitere Probleme mit sich.",
   [k.POLLUTIONTITLE]: "Luftverschmutzung",
   [k.POLLUTIONTEXT]:"Ein weiteres von Menschen verursachtes Problem, befasst sich mit der Luftverschmutzung in den Städten. Diese stellt langfristig ein bedrohliches Gesundheitsrisiko für Betroffene dar und kann zu verschiedenen Krebserkrankungen führen. Ungefähr 7 Millionen Todesfälle jährlich sollen darauf zurück zu führen sein. Als Gegenmaßnahme dient das Pariser Abkommen, welches als Zusammenschluss dient, um die Erderwärmung  auf einem niedrigen Niveau zu halten. Dies alleine reicht jedoch nicht aus.",
+  [k.WEATHERTITLE]: "Wetter", 
   [k.ANIMALSTITLE]: "Tiere",
   [k.ANIMALSTEXT]: "",
   [k.ICETITLE]: "Meeresspiegel",

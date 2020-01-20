@@ -16,6 +16,7 @@ export default {
     [k.AIRTEXT]: "Currently, air traffic contributes about 3% of global CO2 emissions. On the one hand, this does not sound like much, but on the other hand, it has to be taken into account that aircraft are numerically far inferior to the other transport routes. Flying is a very inefficient mean of transport and therefore causes a rapid increase in emissions as the number increases. A disturbing development is thus the domestic flights, which are often used due to comfort or time pressure.",
     [k.POLLUTIONTITLE]: "Pollution",
     [k.POLLUTIONTEXT]: "Another man-made problem deals with air pollution in cities. In the long term, this poses a threatening health risk for those affected and <strong>can lead to various cancers.</strong><br><br> About <strong>7 million deaths a year</strong> are said to be due to it. As a countermeasure serves the Paris Agreement, which serves as an alliance to keep global warming at a low level. Unfortunately, this alone is not enough.",
+    [k.WEATHERTITLE]: "Weather", 
     [k.ANIMALSTITLE]: "Animal",
     [k.ANIMALSTEXT]: "",
     [k.ICETITLE]: "Ice",
