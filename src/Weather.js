@@ -55,8 +55,7 @@ export function Weather() {
       }
 
       if ([2, 3, 5].includes(id)) {
-        //TODO change to Rain when available
-        weather = "Snow";
+        weather = "Rain";
       } else if (id === 6) {
         weather = "Snow";
       } else if (items.weather[0].id > 800 || id === 7) {

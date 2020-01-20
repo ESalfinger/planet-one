@@ -56,16 +56,16 @@ function App(props) {
       return (
       <div className="App">
         <Section className="hero" button="button call-to-action" action = {() => scrollTo("space")} symbol="arrow_down"/>
-        <Section className="space" src="Planet" />
-        <Section className="ozone" src="Rocket"/>
-        <Section className="pollution"/>
-        <Section className="mountains" src="Mountain"/>
+        <Section className="space" texts = {["space"]} src={["Planet"]} />
+        <Section className="ozone" texts = {["ozone"]} src={["Rocket"]}/>
+        <Section className="pollution" texts = {["air", "pollution"]} src={["Plane", "Car"]}/>
+        <Section className="mountains" texts = {["mountains"]} src={["Mountain"]}/>
         <Section className="weather"/>
         <Section className="animals"/>
-        <Section className="ice"/>
-        <Section className="plastic"/>
-        <Section className="time"/>
-        <Section className="team"/>
+        <Section className="ice" texts = {["ice"]}/>
+        <Section className="plastic" texts = {["plastic", "coral"]}/>
+        <Section className="time" texts = {["time"]}/>
+        <Section className="team" texts = {["team"]}/>
       </div>);
     }}
     />
