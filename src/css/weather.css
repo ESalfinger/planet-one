@@ -97,6 +97,11 @@
     background-color: #E4E5F2;
 }
 
+.icon img {
+    width: 42px;
+    height: auto;
+}
+
 .weather-location {
     display: flex;
 }
