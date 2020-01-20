@@ -9,7 +9,7 @@
 .space .text {
       position: absolute;
       z-index: 999;
-      color: white;
+      color: #E4E5F2;
       align-self: center;
       width: 30vw;
       left: 10vw;

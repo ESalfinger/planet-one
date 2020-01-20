@@ -1,6 +1,6 @@
 .ozone {
     background: rgb(255,255,255);
-    background: linear-gradient(0deg, lightblue 0%, rgba(24,20,51,1) 25%);
+    background: linear-gradient(0deg, rgba(228,229,242,1) 0%, rgba(24,20,51,1) 25%);
 }
 
 .ozone h1 {
@@ -10,7 +10,7 @@
 .ozone .text {
     z-index: 999;
     position: absolute;
-    color: white;
+    color: #E4E5F2;
     align-self: center;
     width: 30vw;
     left: 60vw;
