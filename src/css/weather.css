@@ -81,6 +81,7 @@
 .weather-input:focus + .weather-label {
     visibility: visible;
     font-weight: 200;
+    padding-bottom: 8px;
 }
 
 .weather-label {
@@ -132,7 +133,6 @@
     width: 140%;
     height: auto;
     animation: up-down 5s infinite ease-in-out;
-    margin-left: 10%;
 }
 
 @keyframes up-down {
