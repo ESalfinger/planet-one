@@ -133,6 +133,7 @@
     width: 140%;
     height: auto;
     animation: up-down 5s infinite ease-in-out;
+    padding-top: 10vh;
 }
 
 @keyframes up-down {
