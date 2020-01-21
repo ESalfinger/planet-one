@@ -28,7 +28,7 @@ export default {
     [k.TIMETITLE]: "Summary",
     [k.TIMETEXT]: "For a better world. You can change something!",
     [k.TEAMTITLE]: "About us",
-    [k.TEAMTEXT]: "Team Text",
+    [k.TEAMTEXT]: "Thank you for taking the time to learn important facts about our planet. We only have one planet and we should be aware of it as soon as possible. This website was created by us, media technology and design students at the Hagenberg University of Applied Sciences, as part of a project to improve our skills. Since our focus was not primarily on the facts themselves, we cannot guarantee the accuracy of the data.",
 
     [k.UNITS]: "imperial",
     [k.UNITTEMP]: "F",
