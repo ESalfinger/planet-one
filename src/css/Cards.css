@@ -13,15 +13,15 @@
 .cards {
     display: flex;
     align-items: center;
+    width: 50vw;
 }
 
 .animal {
-    border: solid red 2px;
     display: none;
 }
 
 .active {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center !important;
 }

@@ -16,17 +16,16 @@ export function Cards(props) {
   if (props.type === 'animals') {
     return (
       <div className='cards'>
-                <div className="control back" onClick={() => switchCard("back", "animal")}>
-                    <img src={back} alt="back"></img>
-                </div>
-                {animals.map(animal => {
-          return <Animal key={animal.id} id={animal.id} name={animal.name} text={animal.text} />;
+        <div className="control back" onClick={() => switchCard("back", "animal")}>
+          <img src={back} alt="back"></img>
+        </div>
+        {animals.map(animal => {
+          return <Animal img={animal.img} key={animal.id} id={animal.id} name={animal.name} text={animal.text} />;
         })}
-                <div className="control forward" onClick={() => switchCard("forward", "animal")}>
-                     <img src={forward} alt="forward"></img>
-                </div>
-            </div>);
-
+        <div className="control forward" onClick={() => switchCard("forward", "animal")}>
+          <img src={forward} alt="forward"></img>
+        </div>
+      </div>);
   }
 }
 
