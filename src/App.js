@@ -64,7 +64,7 @@ function App(props) {
         <Section className="weather"/>
         <Section className="animals"/>
         <Section className="ice" texts = {["ice"]}/>
-        <Section className="plastic" texts = {["plastic", "coral"]}/>
+        <Section className="plastic" texts = {["plastic", "coral"]} src={["Fish"]}/>
         <Section className="time" texts = {["time"]}/>
         <Section className="team" texts = {["team"]}/>
       </div>);

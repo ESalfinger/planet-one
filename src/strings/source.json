@@ -65,8 +65,15 @@
     {
         "id": 8,
         "section": "summary",
-        "link": "http://www.intactforests.org/index.html",
-        "name": "Intact Forests",
+        "link": "",
+        "name": "",
+        "date": "21.01.2020"
+    },
+    {
+        "id": 9,
+        "section": "summary",
+        "link": "",
+        "name": "",
         "date": "21.01.2020"
     }
 ]
