@@ -108,10 +108,10 @@ div#fp-nav ul li .fp-tooltip {
   color: #12131D
 }
 
-.fp-viewing-0 #fp-nav ul li a span, .fp-viewing-1 #fp-nav ul li a span, .fp-viewing-2 #fp-nav ul li a span, .fp-viewing-6 #fp-nav ul li a span, .fp-viewing-9 #fp-nav ul li a span, .fp-viewing-10 #fp-nav ul li a span, .fp-viewing-11 #fp-nav ul li a span{
+.fp-viewing-0 #fp-nav ul li a span, .fp-viewing-1 #fp-nav ul li a span, .fp-viewing-2 #fp-nav ul li a span, .fp-viewing-8 #fp-nav ul li a span, .fp-viewing-9 #fp-nav ul li a span, .fp-viewing-10 #fp-nav ul li a span, .fp-viewing-11 #fp-nav ul li a span{
      background: white;
 }
 
-.fp-viewing-0  #fp-nav ul li .fp-tooltip, .fp-viewing-1  #fp-nav ul li .fp-tooltip, .fp-viewing-2 #fp-nav ul li .fp-tooltip, .fp-viewing-6 #fp-nav ul li .fp-tooltip, .fp-viewing-9 #fp-nav ul li .fp-tooltip, .fp-viewing-10 #fp-nav ul li .fp-tooltip, .fp-viewing-11 #fp-nav ul li .fp-tooltip{
+.fp-viewing-0  #fp-nav ul li .fp-tooltip, .fp-viewing-1  #fp-nav ul li .fp-tooltip, .fp-viewing-2 #fp-nav ul li .fp-tooltip, .fp-viewing-8 #fp-nav ul li .fp-tooltip, .fp-viewing-9 #fp-nav ul li .fp-tooltip, .fp-viewing-10 #fp-nav ul li .fp-tooltip, .fp-viewing-11 #fp-nav ul li .fp-tooltip{
      color: white;
 }
