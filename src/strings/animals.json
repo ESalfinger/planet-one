@@ -1,31 +1,31 @@
 [
     {
         "id": 0,
-        "img" : "Panda",
+        "img" : "panda",
         "name": "PANDATITLE",
         "text": "PANDATEXT"
     },
     {
         "id": 1,
-        "img" : "Whale",
+        "img" : "whale",
         "name": "WHALETITLE",
         "text": "WHALETEXT"
     },
     {
         "id": 2,
-        "img" : "Monkey",
+        "img" : "monkey",
         "name": "POLARBEARTITLE",
         "text": "POLARBEARTEXT"
     },
     {
         "id": 3,
-        "img" : "Monkey",
+        "img" : "monkey",
         "name": "MONKEYTITLE",
         "text": "MONKEYTEXT"
     },
     {
         "id": 4,
-        "img" : "Monkey",
+        "img" : "monkey",
         "name": "ELEPHANTTITLE",
         "text": "ELEPHANTTEXT"
     }
