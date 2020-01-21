@@ -55,7 +55,7 @@ function App(props) {
     render = {({ state, fullpageApi }) => {
       return (
       <div className="App">
-        <Section className="hero" button="button call-to-action" action = {() => scrollTo("space")} buttonText={i18n.t(k['HEROBUTTONTEXT'])}/>
+        <Section className="hero" button="button call-to-action" action = {() => scrollDown()} buttonText={i18n.t(k['HEROBUTTONTEXT'])}/>
         <Section className="space" texts = {["space"]} src={["Planet"]} />
         <Section className="ozone" texts = {["ozone"]} src={["Rocket"]}/>
         <Section className="pollution" texts = {["air", "pollution"]} src={["Plane", "Car"]}/>
@@ -72,10 +72,8 @@ function App(props) {
   );
 }
 
-function scrollTo(target) {
-  let element = document.getElementsByClassName(target)[0];
-
-  element.scrollIntoView({ behavior: "smooth", block: "start" });
+function scrollDown() {
+  window.fullpage_api.moveSectionDown();
 }
 
 export default App;
