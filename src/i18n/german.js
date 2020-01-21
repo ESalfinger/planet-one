@@ -61,5 +61,20 @@ export default {
   [k.QUOTE04PERSON]: "Dalai Lama",
   [k.QUOTE05PERSON]: "Bill Gates",
 
-  [k.HEROBUTTONTEXT]: "Beginne zu lesen"
+  [k.HEROBUTTONTEXT]: "Beginne zu lesen",
+
+  [k.PANDATITLE]: "Panda",
+  [k.PANDATEXT]: "Der Panda lebt in wenigen Bergregionen Chinas und ernährt sich ausschließlich von Bambus. Durch den Klimawandel verschieben sich allerdings die Vegetationszonen. Dies bedroht Nahrung und Lebensraum der Tiere, da Bambus nur alle 15 - 120 Jahre blüht und sich vermehrt, somit kann sich die Pflanze schwer an solch rapide Änderungen anpassen.",
+
+  [k.WHALETITLE]: "Blauwal",
+  [k.WHALETEXT]: "Durch die Erderwärmung schreitet auch die Versauerung der Weltmeere voran. Dies betrifft auch den Krill, die Hauptnahrungsquelle der Blauwale. Zusätzlich verschieben sich die nährstoffreichen Region der Meere und die Wale müssen immer weitere Strecken zurücklegen, um genügend Nahrung zu finden.",
+
+  [k.POLARBEARTITLE]: "Eisbär",
+  [k.POLARBEARTEXT]: "Bereits heute is die Erderwärmung der größte Freind des Eisbären. Sein Lebensraum schmilzt und auch die Anzahl der vorhandenen Beutetiere verringert sich. Dazu kommt, dass Eisbären öfters ertrinken aufgrund des dünnen Eises und sie durch herabbrechende Schollen oft gezwungen sind wieder ans Festland zu schwimmen.",
+
+  [k.MONKEYTITLE]: "Sumatra Orang-Utan",
+  [k.MONKEYTEXT]: "Aufgrund des Klimawandels erhöhen sich die Niederschlagsmengen im Lebensraum des Orang-Utans erhebelich. Dies führt zu Erdrutschen und Überschwemmungen. Gleichzeitig steigt in der trockenen Jahreszeit das Risiko von Dürren und Waldbränden. Da sich Orang-Utans sehr langsam bewegen forden solche Katastrophen besonders viele Opfer.",
+
+  [k.ELEPHANTTITLE]: "Afrikanischer Elefant",
+  [k.ELEPHANTTEXT]: "Durch die Erderwärmung wird es immer stärkere und längere Dürreperioden geben. Dies wird zur Gefahr für die Elefanten, da sie große Mengen an Frischwasser benötigen. Obwohl Elefanten sehr anpassungsfähige Tiere sind, ist fraglich ob sie mit den Veränderungen durch den Klimawandel leben können.",
 };
