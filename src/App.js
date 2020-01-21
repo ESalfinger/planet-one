@@ -22,9 +22,9 @@ function App(props) {
     "#E4E5F2",
     "#E4E5F2",
     "#E4E5F2",
-    "lightgreen",
-    "#DCF3FF",
-    "#0077be",
+    "#E4E5F2",
+    "#E4E5F2",
+    "#223970",
     "#333",
     "#333"
   ];
