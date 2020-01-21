@@ -11,3 +11,9 @@
 .lang-option:hover {
     cursor: pointer;
 }
+
+.lang-toggle img {
+    margin-left: 32px;
+    width: 24px;
+    height: auto;
+}
