@@ -45,6 +45,7 @@ function App(props) {
 
   return (
     <ReactFullpage
+    licenseKey= 'qp%pf3P$n8'
     sectionsColor={colors}
     verticalCentered = {false}
     fitToSection = {false}
