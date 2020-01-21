@@ -1,13 +1,13 @@
 [
     {
         "id": 0,
-        "img" : "Monkey",
+        "img" : "Panda",
         "name": "PANDATITLE",
         "text": "PANDATEXT"
     },
     {
         "id": 1,
-        "img" : "Monkey",
+        "img" : "Whale",
         "name": "WHALETITLE",
         "text": "WHALETEXT"
     },
