@@ -1,13 +1,21 @@
 [
     {
         "id": 0,
+<<<<<<< HEAD
         "img" : "panda",
+=======
+        "img" : "Panda",
+>>>>>>> 419f0b8936555f6122d716e632c79d69f3f62373
         "name": "PANDATITLE",
         "text": "PANDATEXT"
     },
     {
         "id": 1,
+<<<<<<< HEAD
         "img" : "whale",
+=======
+        "img" : "Whale",
+>>>>>>> 419f0b8936555f6122d716e632c79d69f3f62373
         "name": "WHALETITLE",
         "text": "WHALETEXT"
     },
