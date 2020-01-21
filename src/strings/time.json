@@ -6,9 +6,15 @@
     "per": "s"
   },
   {
-    "value": 9,
+    "value": 100,
     "type": "trees",
     "action": "roded",
+    "per": "m"
+  },
+  {
+    "value": 1,
+    "type": "truck",
+    "action": "dumped",
     "per": "m"
   }
 ]

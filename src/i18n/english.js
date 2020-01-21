@@ -16,7 +16,7 @@ export default {
     [k.AIRTEXT]: "Currently, air traffic contributes about <strong>3%</strong> of global CO2 emissions. On the one hand, this does not sound like much, but on the other hand, it has to be taken into account that aircraft are numerically far inferior to the other transport routes.<br><br> Flying is a <strong>very inefficient</strong> mean of transport and therefore causes a rapid increase in emissions as the number increases. A disturbing development is thus the domestic flights, which are often used due to comfort or time pressure.",
     [k.POLLUTIONTITLE]: "Pollution",
     [k.POLLUTIONTEXT]: "Another man-made problem deals with air pollution in cities. In the long term, this poses a threatening health risk for those affected and <strong>can lead to various cancers.</strong><br><br> About <strong>7 million deaths a year</strong> are said to be due to it. As a countermeasure serves the Paris Agreement, which serves as an alliance to keep global warming at a low level. Unfortunately, this alone is not enough.",
-    [k.WEATHERTITLE]: "Weather", 
+    [k.WEATHERTITLE]: "Weather",
     [k.ANIMALSTITLE]: "Animal",
     [k.ANIMALSTEXT]: "",
     [k.ICETITLE]: "Ice",
@@ -28,7 +28,7 @@ export default {
     [k.TIMETITLE]: "Summary",
     [k.TIMETEXT]: "For a better world. You can change something!",
     [k.TEAMTITLE]: "About us",
-    [k.TEAMTEXT]: "Thank you for taking the time to learn important facts about our planet. We only have one planet and we should be aware of it as soon as possible. This website was created by us, media technology and design students at the Hagenberg University of Applied Sciences, as part of a project to improve our skills. Since our focus was not primarily on the facts themselves, we cannot guarantee the accuracy of the data.",
+    [k.TEAMTEXT]: "Team Text",
 
     [k.UNITS]: "imperial",
     [k.UNITTEMP]: "F",
@@ -45,9 +45,11 @@ export default {
 
     [k.CHILDREN]: "Children",
     [k.TREES]: "Trees",
+    [k.TRUCK]: "Garbage truck loads of plastic",
 
     [k.BORN]: "born",
     [k.RODED]: "cut down",
+    [k.DUMPED]: "dumped into our oceans",
 
     [k.QUOTE01]: "\"The shift to a cleaner energy economy wont happen overnight, and it will require tough choices along the way. But the debate is settled. Climate change is a fact.\"",
     [k.QUOTE02]: "\"Climate change is the greatest threat to humanity, perhaps ever. Global temperatures are rising at an unprecedented rate, causing drought and forest fires and impacting human health.\"",
