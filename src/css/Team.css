@@ -1,0 +1,17 @@
+.team {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.logo-link {
+    align-self: center;
+    position: absolute;
+    bottom: 10px;
+}
+
+.logo-link a {
+    text-decoration: none;
+    color: white;
+}
