@@ -8,6 +8,7 @@ import { Quote } from './Quote';
 import { Cites } from './Cites';
 import spaceBG from './images/spaceBackground.jpg';
 import { Language } from './Language';
+import logo from './images/logo.svg';
 
 import "./css/Section.css";
 import "./css/hero.css";
@@ -25,6 +26,11 @@ export function Section(props) {
   }
   return (
     <div className = {"section " + props.className} id = {props.className} style = {props.className === 'space' ? {backgroundImage: 'url(' + spaceBG + ')', backgroundSize: 'cover'} : {}}>
+      {props.className === 'hero' &&
+        <div className = "logo">
+            <img src = {logo} alt = "logo"></img>
+        </div>
+      }
       <Language />
       {props.texts && props.texts.map((text, index) => 
         <div id = {'text' + index} key = {text} className='text'>
