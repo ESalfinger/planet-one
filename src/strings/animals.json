@@ -1,9 +1,9 @@
 [
     {
         "id": 0,
-        "img" : "panda",
-        "name": "PANDATITLE",
-        "text": "PANDATEXT"
+        "img" : "monkey",
+        "name": "MONKEYTITLE",
+        "text": "MONKEYTEXT"
     },
     {
         "id": 1,
@@ -19,9 +19,9 @@
     },
     {
         "id": 3,
-        "img" : "monkey",
-        "name": "MONKEYTITLE",
-        "text": "MONKEYTEXT"
+        "img" : "panda",
+        "name": "PANDATITLE",
+        "text": "PANDATEXT"
     },
     {
         "id": 4,
