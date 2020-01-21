@@ -26,7 +26,7 @@ export default {
     [k.CORALTITLE]: "Coral",
     [k.CORALTEXT]: "As corals live in symbiosis with algae, heat waves cause the corals to repel these and bleach themselves. The so-called coral bleaching can lead to the <strong>death of the coral</strong> within a few days.<br><br> In the period from 2014 to 2017 alone, almost <strong>one-third</strong> of all coral reefs existing worldwide were attacked by coral bleaching. In the long term, this could also threaten the livelihoods of many people who make their living from fishing.",
     [k.TIMETITLE]: "Summary",
-    [k.TIMETEXT]: "Time Text",
+    [k.TIMETEXT]: "For a better world. You can change something!",
     [k.TEAMTITLE]: "About us",
     [k.TEAMTEXT]: "Team Text",
 

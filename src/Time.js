@@ -33,9 +33,9 @@ function createFigures(timestamp, now) {
     {
       times.map((time, index) =>
       <figure key={index}>
-          <i></i>
-          <figcaption>{formatNumber(Math.round(time.value * (time.per === "m" ? diffDuration.asMinutes() : diffDuration.asSeconds())))} {i18n.t(k[time.type.toUpperCase()])} {i18n.t(k[time.action.toUpperCase()])}</figcaption>
-        </figure>)}
+        <i></i>
+        <figcaption className = 'time-text'><span className = 'time-number'>{formatNumber(Math.round(time.value * (time.per === "m" ? diffDuration.asMinutes() : diffDuration.asSeconds())))}</span><p>{i18n.t(k[time.type.toUpperCase()])} {i18n.t(k[time.action.toUpperCase()])}</p></figcaption>
+      </figure>)}
 
 
     </div>);

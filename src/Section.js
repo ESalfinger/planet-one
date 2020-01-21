@@ -20,6 +20,7 @@ import "./css/mountains.css";
 import "./css/plastic.css";
 import "./css/ice.css";
 import "./css/Team.css";
+import "./css/Summary.css";
 
 import i18n from 'i18next';
 import k from "./i18n/keys";
@@ -48,8 +49,8 @@ export function Section(props) {
       {props.button && <Button action={props.action} target={props.target} symbol={props.symbol} className={props.button} buttonText={props.buttonText} />}
       {(props.className === "animals") && <Cards type={props.className} />}
       {props.className === "weather" && <Weather />}
-      {props.className === "time" && <Time />}
       {props.className === "team" && <Cites />}
       {props.className === "team" && <LogoLink />}
+      {props.className === "time" && <Time />}
     </div>);
 }

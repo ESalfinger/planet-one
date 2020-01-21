@@ -26,7 +26,7 @@ export default {
   [k.CORALTEXT]:
    "Durch die steigenden Temperaturen der Ozeane sind auch Korallenriffe vom Klimawandel betroffen. Diese faszinierenden Ökosysteme dienen vielen Fischarten als Lebensraum und schützen Küstenregionen vor Stürmen beispielsweise. Da Korallen in einer Symbiose mit Algen leben kommt es bei Hitzewellen dazu, dass die Korallen diese abstoßen und ausbleichen. Die sogenannte Korallenbleiche kann bis zum Sterben der Koralle binnen weniger Tage führen. Allein in dem Zeitraum von 2014 bis 2017 sind beinahe ein Drittel aller weltweit existierenden Korallenriffe von der Korallenbleiche befallen worden. Dies könnte langfristig auch bedrohlich für die Lebensgrundlage vieler Menschen sein, welche ihr Geld mit der Fischerei verdienen.",
   [k.TIMETITLE]: "Zusammenfassung",
-  [k.TIMETEXT]: "Time Text",
+  [k.TIMETEXT]: "Für eine besser Welt. Du kannst etwas ändern!",
   [k.TEAMTITLE]: "Über uns",
   [k.TEAMTEXT]: "Team Text",
 
