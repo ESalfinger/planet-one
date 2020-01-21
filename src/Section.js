@@ -8,7 +8,7 @@ import { Quote } from './Quote';
 import { Cites } from './Cites';
 import spaceBG from './images/spaceBackground.jpg';
 import { Language } from './Language';
-import logo from './images/logo.svg';
+import logo from './images/logo.png';
 
 import "./css/Section.css";
 import "./css/hero.css";
