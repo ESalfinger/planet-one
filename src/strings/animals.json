@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "img" : "panda",
+        "img" : "Panda",
         "name": "PANDATITLE",
         "text": "PANDATEXT"
     },
@@ -13,19 +13,19 @@
     },
     {
         "id": 2,
-        "img" : "monkey",
+        "img" : "Monkey",
         "name": "POLARBEARTITLE",
         "text": "POLARBEARTEXT"
     },
     {
         "id": 3,
-        "img" : "monkey",
+        "img" : "Monkey",
         "name": "MONKEYTITLE",
         "text": "MONKEYTEXT"
     },
     {
         "id": 4,
-        "img" : "monkey",
+        "img" : "Monkey",
         "name": "ELEPHANTTITLE",
         "text": "ELEPHANTTEXT"
     }
