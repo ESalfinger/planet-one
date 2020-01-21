@@ -55,7 +55,7 @@ function App(props) {
     render = {({ state, fullpageApi }) => {
       return (
       <div className="App">
-        <Section className="hero" button="button call-to-action" action = {() => scrollTo("space")} symbol="arrow_down"/>
+        <Section className="hero" button="button call-to-action" action = {() => scrollTo("space")} buttonText={i18n.t(k['HEROBUTTONTEXT'])}/>
         <Section className="space" texts = {["space"]} src={["Planet"]} />
         <Section className="ozone" texts = {["ozone"]} src={["Rocket"]}/>
         <Section className="pollution" texts = {["air", "pollution"]} src={["Plane", "Car"]}/>

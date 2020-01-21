@@ -60,4 +60,6 @@ export default {
     [k.QUOTE03PERSON]: "- David Attenborough",
     [k.QUOTE04PERSON]: "- Dalai Lama",
     [k.QUOTE05PERSON]: "- Bill Gates",
+
+    [k.HEROBUTTONTEXT]: "Start reading"
   };

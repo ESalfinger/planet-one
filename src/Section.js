@@ -9,6 +9,7 @@ import { Cites } from './Cites';
 import spaceBG from './images/spaceBackground.jpg';
 import { Language } from './Language';
 import logo from './images/logo.png';
+import LogoLink from './LogoLink';
 
 import "./css/Section.css";
 import "./css/hero.css";
@@ -18,6 +19,7 @@ import "./css/pollution.css";
 import "./css/mountains.css";
 import "./css/plastic.css";
 import "./css/ice.css";
+import "./css/Team.css";
 
 import i18n from 'i18next';
 import k from "./i18n/keys";
@@ -48,5 +50,6 @@ export function Section(props) {
       {props.className === "weather" && <Weather />}
       {props.className === "time" && <Time />}
       {props.className === "team" && <Cites />}
+      {props.className === "team" && <LogoLink />}
     </div>);
 }
