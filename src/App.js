@@ -25,8 +25,8 @@ function App(props) {
     "#E4E5F2",
     "#E4E5F2",
     "#223970",
-    "#333",
-    "#333"
+    "#12131D",
+    "#12131D"
   ];
 
   const toolTips = [

@@ -44,7 +44,8 @@
     grid-row-start: 1;
     grid-column-start: 1;
     width: 40vw;
-   margin-left: 10vw;
+    margin-left: 10vw;
+    margin-top: 10vh;
 }
 
 #Car {
@@ -52,5 +53,5 @@
     grid-column-start: 2;
     width: 70vw;
     margin-left: -15vw;
-    margin-top: -30vh;
+    margin-top: -25vh;
 }
