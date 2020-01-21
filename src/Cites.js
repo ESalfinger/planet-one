@@ -18,6 +18,7 @@ export function Cites() {
             <div className = 'source' id = {source.id}>
               <p className = 'part'>{source.section}</p>
               <a className = 'link' href={source.link}>{source.name}</a>
+              <p className = 'date'>{source.date}</p>
             </div>
           );
         })}
