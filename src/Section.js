@@ -1,7 +1,6 @@
 import React from 'react';
 import { Video } from './Video';
 import { Button } from './Button';
-import { Cards } from './Cards';
 import { Weather } from './Weather';
 import { Time } from './Time';
 import { Quote } from './Quote';
@@ -49,7 +48,6 @@ export function Section(props) {
       )}
       {props.className === 'hero' && <Quote />}
       {props.button && <Button action={props.action} target={props.target} symbol={props.symbol} className={props.button} buttonText={props.buttonText} />}
-      {/*{(props.className === "animals") && <Cards type={props.className} />}*/}
       {(props.className === "animals") &&
         animals.map((animal) => <Animal img={animal.img} key={animal.id} id={animal.id} name={animal.name} text={animal.text} />)
       }

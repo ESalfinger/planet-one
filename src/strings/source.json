@@ -65,15 +65,15 @@
     {
         "id": 8,
         "section": "summary",
-        "link": "",
-        "name": "",
+        "link": "https://thinkglobalgreen.org/forests/",
+        "name": "Think Global Green",
         "date": "21.01.2020"
     },
     {
         "id": 9,
         "section": "summary",
-        "link": "",
-        "name": "",
+        "link": "https://www.earthday.org/fact-sheet-plastics-in-the-ocean/",
+        "name": "Earthday",
         "date": "21.01.2020"
     }
 ]

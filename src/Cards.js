@@ -56,5 +56,4 @@ function switchCard(direction, type) {
   } else {
     elements[0].classList.add('activeCard');
   }
-
 }

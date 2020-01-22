@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import sources from './strings/source.json';
 
+import './css/cites.css';
+
 export function Cites() {
 
   const [showMore, setShowMore] = useState(false);
