@@ -54,3 +54,8 @@ div.slide {
   background: url(../icons/forward.svg) no-repeat;
   cursor: pointer;
 }
+
+div.fp-slidesNav.fp-bottom{
+  text-align: center;
+  bottom: 10vh;
+}

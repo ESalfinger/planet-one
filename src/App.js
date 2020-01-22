@@ -50,6 +50,7 @@ function App(props) {
     verticalCentered = {false}
     fitToSection = {false}
     navigation
+    slidesNavigation
     navigationPosition = "left"
     navigationTooltips={toolTips}
     render = {({ state, fullpageApi }) => {
