@@ -23,3 +23,7 @@
 .ozone .text p strong {
     font-weight: 500;
 }
+
+.ozone .video {
+    height: 100vh;
+}
