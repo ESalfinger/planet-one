@@ -13,20 +13,8 @@
     },
     {
         "id": 2,
-        "img" : "monkey",
-        "name": "POLARBEARTITLE",
-        "text": "POLARBEARTEXT"
-    },
-    {
-        "id": 3,
         "img" : "panda",
         "name": "PANDATITLE",
         "text": "PANDATEXT"
-    },
-    {
-        "id": 4,
-        "img" : "monkey",
-        "name": "ELEPHANTTITLE",
-        "text": "ELEPHANTTEXT"
     }
 ]
