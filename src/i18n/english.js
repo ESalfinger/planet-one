@@ -79,4 +79,7 @@ export default {
 
     [k.ELEPHANTTITLE]: "African Elephant",
     [k.ELEPHANTTEXT]: "With global warming, there will be more and longer periods of drought. This becomes a danger to the elephants, as they require large amounts of freshwater. Although elephants are very adaptable animals, it is questionable whether they can live with the changes caused by climate change.",
+
+    [k.SSOURCES]: "Show sources",
+    [k.HSOURCES]: "Hide sources"
   };

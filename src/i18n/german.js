@@ -79,4 +79,7 @@ export default {
 
   [k.ELEPHANTTITLE]: "Afrikanischer Elefant",
   [k.ELEPHANTTEXT]: "Durch die Erderwärmung wird es immer stärkere und längere Dürreperioden geben. Dies wird zur Gefahr für die Elefanten, da sie große Mengen an Frischwasser benötigen. Obwohl Elefanten sehr anpassungsfähige Tiere sind, ist fraglich ob sie mit den Veränderungen durch den Klimawandel leben können.",
+
+  [k.SSOURCES]: "Quellen anzeigen",
+  [k.HSOURCES]: "Quellen ausblenden"
 };

@@ -1,6 +1,9 @@
 import React, {useState} from 'react';
 import sources from './strings/source.json';
 
+import i18n from 'i18next';
+import k from "./i18n/keys";
+
 import './css/cites.css';
 
 export function Cites() {
@@ -10,8 +13,8 @@ export function Cites() {
   return (
     <div className = 'sources-container'>
       <div className = 'sources-trigger' onClick={() => {showMore === true ? setShowMore(false) : setShowMore(true)}}>
-        {showMore === true && <p>Hide sources</p>}
-        {showMore === false && <p>Show sources</p>}
+        {showMore === true && <p>{i18n.t(k["HSOURCES"])}</p>}
+        {showMore === false && <p>{i18n.t(k["SSOURCES"])}</p>}
       </div>
       {showMore &&
       <div className = 'sources'>
