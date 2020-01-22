@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/project-klima/static/css/main.63444828.chunk.css",
-    "main.js": "/project-klima/static/js/main.750cbaec.chunk.js",
-    "main.js.map": "/project-klima/static/js/main.750cbaec.chunk.js.map",
+    "main.css": "/project-klima/static/css/main.3ac995f2.chunk.css",
+    "main.js": "/project-klima/static/js/main.ea311fac.chunk.js",
+    "main.js.map": "/project-klima/static/js/main.ea311fac.chunk.js.map",
     "runtime-main.js": "/project-klima/static/js/runtime-main.a33e6abb.js",
     "runtime-main.js.map": "/project-klima/static/js/runtime-main.a33e6abb.js.map",
-    "static/js/2.5effc22c.chunk.js": "/project-klima/static/js/2.5effc22c.chunk.js",
-    "static/js/2.5effc22c.chunk.js.map": "/project-klima/static/js/2.5effc22c.chunk.js.map",
+    "static/js/2.6354f572.chunk.js": "/project-klima/static/js/2.6354f572.chunk.js",
+    "static/js/2.6354f572.chunk.js.map": "/project-klima/static/js/2.6354f572.chunk.js.map",
     "index.html": "/project-klima/index.html",
-    "precache-manifest.95a5d56f46f5c94f777c4ed5ccd45951.js": "/project-klima/precache-manifest.95a5d56f46f5c94f777c4ed5ccd45951.js",
+    "precache-manifest.5669ad6fabac7cb6c543839dd9e10fe9.js": "/project-klima/precache-manifest.5669ad6fabac7cb6c543839dd9e10fe9.js",
     "service-worker.js": "/project-klima/service-worker.js",
-    "static/css/main.63444828.chunk.css.map": "/project-klima/static/css/main.63444828.chunk.css.map",
+    "static/css/main.3ac995f2.chunk.css.map": "/project-klima/static/css/main.3ac995f2.chunk.css.map",
     "static/media/App.css": "/project-klima/static/media/BalooBhaijaan-Regular.ccf65f4e.ttf",
     "static/media/Car.webm": "/project-klima/static/media/Car.ae0faee2.webm",
     "static/media/Fish.webm": "/project-klima/static/media/Fish.292c6192.webm",
@@ -18,6 +18,7 @@
     "static/media/FloatingIsland_Day_Cloudy.webm": "/project-klima/static/media/FloatingIsland_Day_Cloudy.6313ca59.webm",
     "static/media/FloatingIsland_Day_Rain.webm": "/project-klima/static/media/FloatingIsland_Day_Rain.93f3d90b.webm",
     "static/media/FloatingIsland_Day_Snow.webm": "/project-klima/static/media/FloatingIsland_Day_Snow.454caf7c.webm",
+    "static/media/Ice.webm": "/project-klima/static/media/Ice.759db767.webm",
     "static/media/Mountain.webm": "/project-klima/static/media/Mountain.8b045113.webm",
     "static/media/Plane.webm": "/project-klima/static/media/Plane.0ff57533.webm",
     "static/media/Planet.webm": "/project-klima/static/media/Planet.ca965dfc.webm",
@@ -29,8 +30,6 @@
     "static/media/german.svg": "/project-klima/static/media/german.6c131c3f.svg",
     "static/media/logo.png": "/project-klima/static/media/logo.56d876bb.png",
     "static/media/monkey.png": "/project-klima/static/media/monkey.67da6809.png",
-    "static/media/nav.svg": "/project-klima/static/media/nav.b75fd445.svg",
-    "static/media/navOpen.svg": "/project-klima/static/media/navOpen.b9d8a9d6.svg",
     "static/media/panda.png": "/project-klima/static/media/panda.e9e21d9f.png",
     "static/media/search.svg": "/project-klima/static/media/search.0e168e93.svg",
     "static/media/spaceBackground.jpg": "/project-klima/static/media/spaceBackground.81d0fc07.jpg",
@@ -38,8 +37,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a33e6abb.js",
-    "static/js/2.5effc22c.chunk.js",
-    "static/css/main.63444828.chunk.css",
-    "static/js/main.750cbaec.chunk.js"
+    "static/js/2.6354f572.chunk.js",
+    "static/css/main.3ac995f2.chunk.css",
+    "static/js/main.ea311fac.chunk.js"
   ]
 }

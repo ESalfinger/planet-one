@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0659ad57ab92bf93c0e6dc9821a90b2",
+    "revision": "64ed8353470f0cdcc4502ff669f7e378",
     "url": "/project-klima/index.html"
   },
   {
-    "revision": "d5952ccb387e45596adc",
-    "url": "/project-klima/static/css/main.63444828.chunk.css"
+    "revision": "7939180e9f7744a463f3",
+    "url": "/project-klima/static/css/main.3ac995f2.chunk.css"
   },
   {
-    "revision": "4f5482888c043109aef4",
-    "url": "/project-klima/static/js/2.5effc22c.chunk.js"
+    "revision": "0f7daf32fbaae8470878",
+    "url": "/project-klima/static/js/2.6354f572.chunk.js"
   },
   {
-    "revision": "d5952ccb387e45596adc",
-    "url": "/project-klima/static/js/main.750cbaec.chunk.js"
+    "revision": "7939180e9f7744a463f3",
+    "url": "/project-klima/static/js/main.ea311fac.chunk.js"
   },
   {
     "revision": "25428cf814c1dc878c5a",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "454caf7cbdd3f97afe3538b8aa4e0be5",
     "url": "/project-klima/static/media/FloatingIsland_Day_Snow.454caf7c.webm"
+  },
+  {
+    "revision": "759db76788f8afa7c77275f40bdbae27",
+    "url": "/project-klima/static/media/Ice.759db767.webm"
   },
   {
     "revision": "8b0451135f5e28461e8dbb86f3560480",
@@ -90,14 +94,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "67da6809d287d42af1e4726c11204d0c",
     "url": "/project-klima/static/media/monkey.67da6809.png"
-  },
-  {
-    "revision": "b75fd44593598883f9199eb05ef9290c",
-    "url": "/project-klima/static/media/nav.b75fd445.svg"
-  },
-  {
-    "revision": "b9d8a9d6cacea7f1844f0a83b50912a0",
-    "url": "/project-klima/static/media/navOpen.b9d8a9d6.svg"
   },
   {
     "revision": "e9e21d9fa80569b526d32f3ae5738c6b",
