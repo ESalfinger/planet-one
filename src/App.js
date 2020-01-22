@@ -49,7 +49,6 @@ function App(props) {
     sectionsColor={colors}
     verticalCentered = {false}
     fitToSection = {false}
-    showActiveTooltip = {true}
     navigation
     navigationPosition = "left"
     navigationTooltips={toolTips}
