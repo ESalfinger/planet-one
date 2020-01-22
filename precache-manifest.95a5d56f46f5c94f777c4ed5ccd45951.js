@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4800cf55b2eac21cb8acb99ffc7a5994",
+    "revision": "a0659ad57ab92bf93c0e6dc9821a90b2",
     "url": "/project-klima/index.html"
   },
   {
