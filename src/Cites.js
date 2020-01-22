@@ -17,10 +17,8 @@ export function Cites() {
       <div className = 'sources'>
         {sources.map(source => {
           return (
-            <div className = 'source' id = {source.id}>
-              <p className = 'part'>{source.section}</p>
+            <div className = 'source' id = {'source' + source.id}>
               <a className = 'link' href={source.link}>{source.name}</a>
-              <p className = 'date'>{source.date}</p>
             </div>
           );
         })}
