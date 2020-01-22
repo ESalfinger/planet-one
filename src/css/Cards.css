@@ -16,10 +16,6 @@
     width: 55vw;
 }
 
-.animal {
-    display: none;
-}
-
 .activeCard {
     display: flex;
     flex-direction: column;

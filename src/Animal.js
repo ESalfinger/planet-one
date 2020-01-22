@@ -7,12 +7,14 @@ import k from "./i18n/keys";
 
 export default function Animal(props) {
   return (
-    <div className="animal" id={'animal' + props.id}>
-      <div className = "animal-hero">
-        <img src = {require('./images/' + props.img + '.png')} alt = {props.name}></img>
-        <h1>{i18n.t(k[(props.name)])}</h1>
+    <div className="slide" id={'animal' + props.id}>
+      <div className="animal">
+        <div className = "animal-hero">
+          <img src = {require('./images/' + props.img + '.png')} alt = {props.name}></img>
+          <h1>{i18n.t(k[(props.name)])}</h1>
+        </div>
+        <p className = 'animal-text'>{i18n.t(k[(props.text)])}</p>
       </div>
-      <p className = 'animal-text'>{i18n.t(k[(props.text)])}</p>
     </div>);
 
 }

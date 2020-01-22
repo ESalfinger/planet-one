@@ -1,15 +1,16 @@
 .animal img {
-    width: 450px !important;
+    width: 30vw;
     height: auto;
 }
 
 .animal-hero {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .animal-text {
-    width: 80%;
+    width: 40vw;
     align-self: center;
     padding-top: 32px;
     line-height: 1.6;
@@ -19,9 +20,27 @@
 }
 
 .animal {
-    border-radius: 16px;
-    padding: 32px;
-    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25);
-    margin-left: 46px;
-    margin-right: 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 4em;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.35);
+}
+
+div.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#animals > div.fp-controlArrow.fp-prev {
+  margin-left: 10vw;
+  border-right-color: #12131D;
+}
+
+#animals > div.fp-controlArrow.fp-next {
+  margin-right: 10vw;
+  border-left-color: #12131D;
 }

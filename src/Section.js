@@ -10,6 +10,8 @@ import spaceBG from './images/spaceBackground.jpg';
 import { Language } from './Language';
 import logo from './images/logo.png';
 import LogoLink from './LogoLink';
+import Animal from './Animal';
+import animals from './strings/animals.json';
 
 import "./css/Section.css";
 import "./css/hero.css";
@@ -37,17 +39,20 @@ export function Section(props) {
         </div>
       }
       <Language />
-      {props.texts && props.texts.map((text, index) => 
+      {props.texts && props.texts.map((text, index) =>
         <div id = {'text' + index} key = {text} className='text'>
          <p dangerouslySetInnerHTML={{__html: getHTML(text)}}></p>
         </div>
       )}
-      { props.src && props.src.map((video) => 
+      { props.src && props.src.map((video) =>
         <Video id = {video} key = {video} src = {video} />
       )}
       {props.className === 'hero' && <Quote />}
       {props.button && <Button action={props.action} target={props.target} symbol={props.symbol} className={props.button} buttonText={props.buttonText} />}
-      {(props.className === "animals") && <Cards type={props.className} />}
+      {/*{(props.className === "animals") && <Cards type={props.className} />}*/}
+      {(props.className === "animals") &&
+        animals.map((animal) => <Animal img={animal.img} key={animal.id} id={animal.id} name={animal.name} text={animal.text} />)
+      }
       {props.className === "weather" && <Weather />}
       {props.className === "team" && <Cites />}
       {props.className === "team" && <LogoLink />}
