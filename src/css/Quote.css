@@ -9,7 +9,7 @@
     line-height: 1.25;
 }
 
-.active {
+.activeQuote {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

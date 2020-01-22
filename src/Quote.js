@@ -13,7 +13,7 @@ export function Quote() {
 
     return (
         <div className = "quote-container">
-            <div className = "quote active">
+            <div className = "quote activeQuote">
                 <p className = 'quote-text'>{i18n.t(k['QUOTE01'])}</p>
                 <p className = 'quote-person'>{i18n.t(k['QUOTE01PERSON'])}</p>
             </div>
@@ -42,8 +42,8 @@ function getQuote() {
     let current = 0;
 
     for (let i = 0; i < e.length; i++) {
-        if (e[i].classList.contains('active')) {
-            e[i].classList.remove('active');
+        if (e[i].classList.contains('activeQuote')) {
+            e[i].classList.remove('activeQuote');
             current = i + 1;
         }
     }
@@ -51,6 +51,6 @@ function getQuote() {
         current = 0;
     }
 
-    e[current].classList.add('active');
+    e[current].classList.add('activeQuote');
     setTimeout(getQuote, 7000);
 }
