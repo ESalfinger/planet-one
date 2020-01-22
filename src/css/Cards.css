@@ -20,8 +20,8 @@
     display: none;
 }
 
-.active {
+.activeCard {
     display: flex;
     flex-direction: column;
-    justify-content: center !important;
+    justify-content: center;
 }

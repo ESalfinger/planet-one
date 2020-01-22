@@ -10,7 +10,7 @@ export function Cards(props) {
 
   useEffect(() => {
     let startA = document.getElementsByClassName('animal')[0];
-    startA.classList.add('active');
+    startA.classList.add('activeCard');
   });
 
   if (props.type === 'animals') {
@@ -36,7 +36,7 @@ function switchCard(direction, type) {
   let target;
 
   for (let i = 0; i < elements.length; i++) {
-    if (elements[i].classList.contains('active')) {
+    if (elements[i].classList.contains('activeCard')) {
 
       current = i;
 
@@ -47,14 +47,14 @@ function switchCard(direction, type) {
       }
     }
   }
-  elements[current].classList.remove('active');
+  elements[current].classList.remove('activeCard');
 
   if (target < 0) {
-    elements[elements.length - 1].classList.add('active');
+    elements[elements.length - 1].classList.add('activeCard');
   } else if (target < elements.length) {
-    elements[target].classList.add('active');
+    elements[target].classList.add('activeCard');
   } else {
-    elements[0].classList.add('active');
+    elements[0].classList.add('activeCard');
   }
 
 }
