@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/project-klima/precache-manifest.5669ad6fabac7cb6c543839dd9e10fe9.js"
+  "/project-klima/precache-manifest.0f93727b98f3e4d668a32c234059ea1d.js"
 );
 
 self.addEventListener('message', (event) => {
