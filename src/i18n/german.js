@@ -26,7 +26,7 @@ export default {
   [k.CORALTEXT]:
    "Da Korallen in einer Symbiose mit Algen leben kommt es bei Hitzewellen dazu, dass die Korallen diese abstoßen und ausbleichen. Die sogenannte Korallenbleiche kann bis zum <strong>Sterben der Koralle</strong> binnen weniger Tage führen.<br><br> Allein in dem Zeitraum von 2014 bis 2017 sind beinahe <strong>ein Drittel</strong> aller weltweit existierenden Korallenriffe von der Korallenbleiche befallen worden. Dies könnte langfristig auch bedrohlich für die Lebensgrundlage vieler Menschen sein, welche ihr Geld mit der Fischerei verdienen.",
   [k.TIMETITLE]: "Zusammenfassung",
-  [k.TIMETEXT]: "Für eine besser Welt. Du kannst etwas ändern!",
+  [k.TIMETEXT]: "Dies sind einige Zahlen, um zu veranschaulichen, was während deines Besuchs auf unserer Seite passiert ist.<br><br><strong> Diese Kinder verdienen eine bessere Welt. Du kannst etwas ändern!</strong>",
   [k.TEAMTITLE]: "Über uns",
   [k.TEAMTEXT]: "Danke, dass du dir die Zeit genommen hast, um wichtige Fakten über unseren Planeten zu lernen. Wir haben nur <strong>einen Planeten</strong> und darüber sollten wir uns möglichst schnell bewusstwerden.<br><br> Diese Website wurde von uns, <strong>Medientechnik- & Design Studenten</strong> der Fachhochschule Hagenberg, im Rahmen eines Projektes erstellt, um unsere Fähigkeiten zu verbessern.<br><br> Da unser Fokus somit nicht primär auf den Fakten an sich lag, können wir <strong>nicht die Richtigkeit der Daten gewähren.</strong>",
 
