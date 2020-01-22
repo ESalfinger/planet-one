@@ -6,7 +6,7 @@
     "per": "s"
   },
   {
-    "value": 100,
+    "value": 30000,
     "type": "trees",
     "action": "roded",
     "per": "m"
