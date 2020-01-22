@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/project-klima/static/css/main.65003f2c.chunk.css",
-    "main.js": "/project-klima/static/js/main.84996ba1.chunk.js",
-    "main.js.map": "/project-klima/static/js/main.84996ba1.chunk.js.map",
+    "main.css": "/project-klima/static/css/main.ed53c3ad.chunk.css",
+    "main.js": "/project-klima/static/js/main.43fe4c27.chunk.js",
+    "main.js.map": "/project-klima/static/js/main.43fe4c27.chunk.js.map",
     "runtime-main.js": "/project-klima/static/js/runtime-main.a33e6abb.js",
     "runtime-main.js.map": "/project-klima/static/js/runtime-main.a33e6abb.js.map",
     "static/js/2.5effc22c.chunk.js": "/project-klima/static/js/2.5effc22c.chunk.js",
     "static/js/2.5effc22c.chunk.js.map": "/project-klima/static/js/2.5effc22c.chunk.js.map",
     "index.html": "/project-klima/index.html",
-    "precache-manifest.dbab70304fb8729126c14c708bcbdaa3.js": "/project-klima/precache-manifest.dbab70304fb8729126c14c708bcbdaa3.js",
+    "precache-manifest.549ed4f90203a3ca18e82a46155a1e4e.js": "/project-klima/precache-manifest.549ed4f90203a3ca18e82a46155a1e4e.js",
     "service-worker.js": "/project-klima/service-worker.js",
-    "static/css/main.65003f2c.chunk.css.map": "/project-klima/static/css/main.65003f2c.chunk.css.map",
+    "static/css/main.ed53c3ad.chunk.css.map": "/project-klima/static/css/main.ed53c3ad.chunk.css.map",
     "static/media/App.css": "/project-klima/static/media/BalooBhaijaan-Regular.ccf65f4e.ttf",
     "static/media/Car.webm": "/project-klima/static/media/Car.ae0faee2.webm",
     "static/media/Fish.webm": "/project-klima/static/media/Fish.292c6192.webm",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.a33e6abb.js",
     "static/js/2.5effc22c.chunk.js",
-    "static/css/main.65003f2c.chunk.css",
-    "static/js/main.84996ba1.chunk.js"
+    "static/css/main.ed53c3ad.chunk.css",
+    "static/js/main.43fe4c27.chunk.js"
   ]
 }
