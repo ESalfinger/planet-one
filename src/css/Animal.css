@@ -36,11 +36,21 @@ div.slide {
 }
 
 #animals > div.fp-controlArrow.fp-prev {
-  margin-left: 10vw;
-  border-right-color: #12131D;
+    margin-left: 10vw;
+    left: 0;
+    border: none;
+    width: 50px;
+    height: 101px;
+    background: url(../icons/back.svg) no-repeat;
+    cursor: pointer;
 }
 
 #animals > div.fp-controlArrow.fp-next {
   margin-right: 10vw;
-  border-left-color: #12131D;
+  right: 0;
+  border: none;
+  width: 50px;
+  height: 101px;
+  background: url(../icons/forward.svg) no-repeat;
+  cursor: pointer;
 }
