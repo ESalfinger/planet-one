@@ -66,19 +66,13 @@ export default {
     [k.HEROBUTTONTEXT]: "Start reading",
 
     [k.PANDATITLE]: "Panda",
-    [k.PANDATEXT]: "The panda lives in a few mountainous regions of China and feeds exclusively on bamboo. Due to climate change, however, the vegetation zones are shifting. This threatens the food and habitat of the animals since bamboos only flourish and multiply every 15 - 120 years, so the plant can hardly adapt to such rapid changes.",
+    [k.PANDATEXT]: "The panda lives in a few mountainous regions of China and feeds exclusively on bamboo. Due to climate change, however, the vegetation zones are shifting. This threatens the food and habitat of the animals since bamboos only flourish and multiply every 15 to 120 years, so the plant can hardly adapt to such rapid changes.",
 
     [k.WHALETITLE]: "Blue whale",
     [k.WHALETEXT]: "Due to global warming, the acidification of the oceans is progressing. This also applies to krill, the main food source of blue whales. Besides, the nutrient-rich region of the oceans are shifting and the whales have to travel long distances to find enough food.",
-
-    [k.POLARBEARTITLE]: "Polar bear",
-    [k.POLARBEARTEXT]: "Even today, global warming is the polar bear's greatest enemy. Its habitat melts and also the number of animals available to eat decreases. Besides, polar bears drown more often due to the thin ice and they are often forced by falling clods to return to the mainland.",
-
+    
     [k.MONKEYTITLE]: "Sumatran orangutan",
     [k.MONKEYTEXT]: "Due to climate change, rainfall in the orangutan habitat is increasing dramatically. This leads to landslides and floods. At the same time, the risk of drought and forest fires increases in the dry season. As orangutans move very slowly, such catastrophes require a particularly large number of victims.",
-
-    [k.ELEPHANTTITLE]: "African Elephant",
-    [k.ELEPHANTTEXT]: "With global warming, there will be more and longer periods of drought. This becomes a danger to the elephants, as they require large amounts of freshwater. Although elephants are very adaptable animals, it is questionable whether they can live with the changes caused by climate change.",
 
     [k.SSOURCES]: "Show sources",
     [k.HSOURCES]: "Hide sources"
