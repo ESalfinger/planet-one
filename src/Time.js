@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import moment from 'moment';
+import 'moment/locale/de';
 import times from './strings/time.json';
 import './css/Time.css';
 
@@ -43,5 +44,9 @@ function createFigures(timestamp, now) {
 }
 
 function formatNumber(num) {
-  return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.');
+  let p = ",";
+  if (localStorage.getItem("lng") === "de") {
+    p = ".";
+  }
+  return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1' + p);
 }

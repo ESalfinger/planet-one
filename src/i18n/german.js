@@ -28,7 +28,7 @@ export default {
   [k.TIMETITLE]: "Zusammenfassung",
   [k.TIMETEXT]: "Dies sind einige Zahlen, um zu veranschaulichen, was während deines Besuchs auf unserer Seite passiert ist.<br><br><strong> Diese Kinder verdienen eine bessere Welt. Du kannst etwas ändern!</strong>",
   [k.TEAMTITLE]: "Über uns",
-  [k.TEAMTEXT]: "Danke, dass du dir die Zeit genommen hast, um wichtige Fakten über unseren Planeten zu lernen. Wir haben nur <strong>einen Planeten</strong> und darüber sollten wir uns möglichst schnell bewusstwerden.<br><br> Diese Website wurde von uns, <strong>Medientechnik- & Design Studenten</strong> der Fachhochschule Hagenberg, im Rahmen eines Projektes erstellt, um unsere Fähigkeiten zu verbessern.<br><br> Da unser Fokus somit nicht primär auf den Fakten an sich lag, können wir <strong>nicht die Richtigkeit der Daten gewähren.</strong>",
+  [k.TEAMTEXT]: "Danke, dass du dir die Zeit genommen hast, um wichtige Fakten über unseren Planeten zu lernen. Wir haben nur <strong>einen Planeten</strong> und darüber sollten wir uns möglichst schnell bewusstwerden.<br><br> Diese Website wurde von uns, <strong>Medientechnik und -design Studenten</strong> der FH Oberösterreich, Campus Hagenberg (oder Faktultät für Informatik, Kommunikation und Medien), im Rahmen eines Projektes erstellt, um unsere Fähigkeiten zu verbessern.<br><br> Da unser Fokus somit nicht primär auf den Fakten an sich lag, können wir <strong>nicht die Richtigkeit der Daten gewähren.</strong>",
 
   [k.UNITS]: "metric",
   [k.UNITTEMP]: "C",
@@ -51,11 +51,11 @@ export default {
   [k.RODED]: "gefällt",
   [k.DUMPED]: "in unseren Ozeanen",
 
-  [k.QUOTE01]: "\"Die Umstellung auf eine sauberere Energiewirtschaft wird nicht über Nacht erfolgen und es werden schwierige Entscheidungen erforderlich sein. Aber die Debatte ist beigelegt. Der Klimawandel ist eine Tatsache.\"",
-  [k.QUOTE02]: "\"Der Klimawandel ist vielleicht die größte Bedrohung für die Menschheit überhaupt. Die globalen Temperaturen steigen mit beispielloser Geschwindigkeit, verursachen Dürre und Waldbrände und beeinträchtigen die menschliche Gesundheit.\"",
-  [k.QUOTE03]: "\"Es ist keine Frage, dass der Klimawandel stattfindet. Der einzige fragliche Punkt ist, welche Rolle die Menschen dabei spielen.\"",
-  [k.QUOTE04]: "\"Einige Wissenschaftler glauben, dass der Klimawandel die Ursache für das beispiellose Abschmelzen des Nordpols ist und diese sehr unsicheren Wettermuster beeinflusst. Ich denke, wir sollten diesen Wissenschaftlern und Experten zuhören.\"",
-  [k.QUOTE05]: "\"Der Klimawandel ist ein schreckliches Problem und muss unbedingt gelöst werden. Es verdient eine große Priorität.\"",
+  [k.QUOTE01]: "\„Die Umstellung auf eine sauberere Energiewirtschaft wird nicht über Nacht erfolgen und es werden schwierige Entscheidungen erforderlich sein. Aber die Debatte ist beigelegt. Der Klimawandel ist eine Tatsache.\“",
+  [k.QUOTE02]: "\„Der Klimawandel ist vielleicht die größte Bedrohung für die Menschheit überhaupt. Die globalen Temperaturen steigen mit beispielloser Geschwindigkeit, verursachen Dürre und Waldbrände und beeinträchtigen die menschliche Gesundheit.\“",
+  [k.QUOTE03]: "\„Es ist keine Frage, dass der Klimawandel stattfindet. Der einzige fragliche Punkt ist, welche Rolle die Menschen dabei spielen.\“",
+  [k.QUOTE04]: "\„Einige Wissenschaftler glauben, dass der Klimawandel die Ursache für das beispiellose Abschmelzen des Nordpols ist und diese sehr unsicheren Wettermuster beeinflusst. Ich denke, wir sollten diesen Wissenschaftlern und Experten zuhören.\“",
+  [k.QUOTE05]: "\„Der Klimawandel ist ein schreckliches Problem und muss unbedingt gelöst werden. Es verdient eine große Priorität.\"",
 
   [k.QUOTE01PERSON]: "Barack Obama",
   [k.QUOTE02PERSON]: "Cary Kennedy",
@@ -66,19 +66,13 @@ export default {
   [k.HEROBUTTONTEXT]: "Beginne zu lesen",
 
   [k.PANDATITLE]: "Panda",
-  [k.PANDATEXT]: "Der Panda lebt in wenigen Bergregionen Chinas und ernährt sich ausschließlich von Bambus. Durch den Klimawandel verschieben sich allerdings die Vegetationszonen. Dies bedroht Nahrung und Lebensraum der Tiere, da Bambus nur alle 15 - 120 Jahre blüht und sich vermehrt, somit kann sich die Pflanze schwer an solch rapide Änderungen anpassen.",
+  [k.PANDATEXT]: "Der Panda lebt in wenigen Bergregionen Chinas und ernährt sich ausschließlich von Bambus. Durch den Klimawandel verschieben sich allerdings die Vegetationszonen. Dies bedroht Nahrung und Lebensraum der Tiere, da Bambus nur alle 15 bis 120 Jahre blüht und sich vermehrt, somit kann sich die Pflanze schwer an solch rapide Änderungen anpassen.",
 
   [k.WHALETITLE]: "Blauwal",
   [k.WHALETEXT]: "Durch die Erderwärmung schreitet auch die Versauerung der Weltmeere voran. Dies betrifft auch den Krill, die Hauptnahrungsquelle der Blauwale. Zusätzlich verschieben sich die nährstoffreichen Region der Meere und die Wale müssen immer weitere Strecken zurücklegen, um genügend Nahrung zu finden.",
 
-  [k.POLARBEARTITLE]: "Eisbär",
-  [k.POLARBEARTEXT]: "Bereits heute is die Erderwärmung der größte Freind des Eisbären. Sein Lebensraum schmilzt und auch die Anzahl der vorhandenen Beutetiere verringert sich. Dazu kommt, dass Eisbären öfters ertrinken aufgrund des dünnen Eises und sie durch herabbrechende Schollen oft gezwungen sind wieder ans Festland zu schwimmen.",
-
   [k.MONKEYTITLE]: "Sumatra Orang-Utan",
   [k.MONKEYTEXT]: "Aufgrund des Klimawandels erhöhen sich die Niederschlagsmengen im Lebensraum des Orang-Utans erhebelich. Dies führt zu Erdrutschen und Überschwemmungen. Gleichzeitig steigt in der trockenen Jahreszeit das Risiko von Dürren und Waldbränden. Da sich Orang-Utans sehr langsam bewegen forden solche Katastrophen besonders viele Opfer.",
-
-  [k.ELEPHANTTITLE]: "Afrikanischer Elefant",
-  [k.ELEPHANTTEXT]: "Durch die Erderwärmung wird es immer stärkere und längere Dürreperioden geben. Dies wird zur Gefahr für die Elefanten, da sie große Mengen an Frischwasser benötigen. Obwohl Elefanten sehr anpassungsfähige Tiere sind, ist fraglich ob sie mit den Veränderungen durch den Klimawandel leben können.",
 
   [k.SSOURCES]: "Quellen anzeigen",
   [k.HSOURCES]: "Quellen ausblenden"

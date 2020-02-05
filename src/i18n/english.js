@@ -57,11 +57,11 @@ export default {
     [k.QUOTE04]: "\"Some scientists believe climate change is the cause of unprecedented melting of the North Pole, and that effects these very uncertain weather patterns. I think we should listen to those scientists and experts.\"",
     [k.QUOTE05]: "\"Climate change is a terrible problem, and it absolutely needs to be solved. It deserves to be a huge priority.\"",
 
-    [k.QUOTE01PERSON]: "- Barack Obama",
-    [k.QUOTE02PERSON]: "- Cary Kennedy",
-    [k.QUOTE03PERSON]: "- David Attenborough",
-    [k.QUOTE04PERSON]: "- Dalai Lama",
-    [k.QUOTE05PERSON]: "- Bill Gates",
+    [k.QUOTE01PERSON]: "Barack Obama",
+    [k.QUOTE02PERSON]: "Cary Kennedy",
+    [k.QUOTE03PERSON]: "David Attenborough",
+    [k.QUOTE04PERSON]: "Dalai Lama",
+    [k.QUOTE05PERSON]: "Bill Gates",
 
     [k.HEROBUTTONTEXT]: "Start reading",
 
