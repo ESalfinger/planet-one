@@ -11,6 +11,7 @@ import logo from './images/logo.png';
 import LogoLink from './LogoLink';
 import Animal from './Animal';
 import animals from './strings/animals.json';
+import Fh from './Fh';
 
 import "./css/Section.css";
 import "./css/hero.css";
@@ -54,6 +55,7 @@ export function Section(props) {
       {props.className === "weather" && <Weather />}
       {props.className === "team" && <Cites />}
       {props.className === "team" && <LogoLink />}
+      {props.className === "team" && <Fh />}
       {props.className === "time" && <Time />}
     </div>);
 }

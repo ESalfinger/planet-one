@@ -31,3 +31,8 @@
     text-decoration: none;
     color: white;
 }
+
+.fh-logo {
+    position: absolute;
+    bottom: 10vh;
+}
