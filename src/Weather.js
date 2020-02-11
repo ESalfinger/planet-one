@@ -17,7 +17,9 @@ export function Weather() {
   const [items, setItems] = useState();
   const [isLoaded, setIsLoaded] = useState(false);
   const [city, setCity] = useState();
-  const [errorMessage, setErrorMessage] = useState("")
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const lang = localStorage.getItem("lng");
 
   const fetchWeather = (event) => {
     event.preventDefault();
@@ -99,20 +101,21 @@ export function Weather() {
             </div>
             <div className = "weather-value">
               <p className = "weather-value-key">{i18n.t(k.TEMP)}</p>
-              <p>{items.main.temp} °{i18n.t(k.UNITTEMP)}</p>
+              <p>{lang === "de" ? items.main.temp.toString().replace(".", ",") : items.main.temp} °{i18n.t(k.UNITTEMP)}</p>
             </div>
             <div className = "weather-value">
               <p className = "weather-value-key">{i18n.t(k.HUMIDITY)}</p>
-              <p>{items.main.humidity} %</p>
+              <p>{lang === "de" ? items.main.humidity.toString().replace(".", ",") : items.main.humidity} %</p>
             </div>
             <div className = "weather-value">
               <p className = "weather-value-key">{i18n.t(k.WIND)}</p>
-              <p>{items.wind.speed} {i18n.t(k.UNITSPEED)}</p>
+              <p>{lang === "de" ? items.wind.speed.toString().replace(".", ",") : items.wind.speed} {i18n.t(k.UNITSPEED)}</p>
             </div>
             {items.rain &&
             <div className = "weather-value">
               <p className = "weather-value-key">{i18n.t(k.RAIN)}</p>
               <p>{items.rain["1h"] || items.rain["3h"]} mm</p>
+              <p>{lang === "de" ? items.rain["1h"].toString().replace(".", ",") || items.rain["3h"].toString().replace(".", ",") : items.rain["1h"] || items.rain["3h"]} mm</p>
             </div>
             }
           </div>
