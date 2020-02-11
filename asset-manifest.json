@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/project-klima/static/css/main.e9078bfc.chunk.css",
-    "main.js": "/project-klima/static/js/main.ce6e655f.chunk.js",
-    "main.js.map": "/project-klima/static/js/main.ce6e655f.chunk.js.map",
+    "main.css": "/project-klima/static/css/main.76af8fb2.chunk.css",
+    "main.js": "/project-klima/static/js/main.1730c2e6.chunk.js",
+    "main.js.map": "/project-klima/static/js/main.1730c2e6.chunk.js.map",
     "runtime-main.js": "/project-klima/static/js/runtime-main.a33e6abb.js",
     "runtime-main.js.map": "/project-klima/static/js/runtime-main.a33e6abb.js.map",
-    "static/js/2.6354f572.chunk.js": "/project-klima/static/js/2.6354f572.chunk.js",
-    "static/js/2.6354f572.chunk.js.map": "/project-klima/static/js/2.6354f572.chunk.js.map",
+    "static/js/2.fc186eea.chunk.js": "/project-klima/static/js/2.fc186eea.chunk.js",
+    "static/js/2.fc186eea.chunk.js.map": "/project-klima/static/js/2.fc186eea.chunk.js.map",
     "index.html": "/project-klima/index.html",
-    "precache-manifest.0f93727b98f3e4d668a32c234059ea1d.js": "/project-klima/precache-manifest.0f93727b98f3e4d668a32c234059ea1d.js",
+    "precache-manifest.e841cdcdc57026747faad8b0134e713d.js": "/project-klima/precache-manifest.e841cdcdc57026747faad8b0134e713d.js",
     "service-worker.js": "/project-klima/service-worker.js",
-    "static/css/main.e9078bfc.chunk.css.map": "/project-klima/static/css/main.e9078bfc.chunk.css.map",
+    "static/css/main.76af8fb2.chunk.css.map": "/project-klima/static/css/main.76af8fb2.chunk.css.map",
     "static/media/App.css": "/project-klima/static/media/BalooBhaijaan-Regular.ccf65f4e.ttf",
     "static/media/Car.webm": "/project-klima/static/media/Car.ae0faee2.webm",
     "static/media/Fish.webm": "/project-klima/static/media/Fish.292c6192.webm",
@@ -26,7 +26,9 @@
     "static/media/arrow_down.svg": "/project-klima/static/media/arrow_down.8b255927.svg",
     "static/media/Animal.css": "/project-klima/static/media/forward.94835cb3.svg",
     "static/media/english.svg": "/project-klima/static/media/english.bfb8d30f.svg",
+    "static/media/englishFH.svg": "/project-klima/static/media/englishFH.87741091.svg",
     "static/media/german.svg": "/project-klima/static/media/german.6c131c3f.svg",
+    "static/media/germanFH.svg": "/project-klima/static/media/germanFH.a71d6d5f.svg",
     "static/media/logo.png": "/project-klima/static/media/logo.56d876bb.png",
     "static/media/monkey.png": "/project-klima/static/media/monkey.67da6809.png",
     "static/media/panda.png": "/project-klima/static/media/panda.e9e21d9f.png",
@@ -36,8 +38,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a33e6abb.js",
-    "static/js/2.6354f572.chunk.js",
-    "static/css/main.e9078bfc.chunk.css",
-    "static/js/main.ce6e655f.chunk.js"
+    "static/js/2.fc186eea.chunk.js",
+    "static/css/main.76af8fb2.chunk.css",
+    "static/js/main.1730c2e6.chunk.js"
   ]
 }

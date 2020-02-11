@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c2510f74b778db415dbd99cbf49cc0d",
+    "revision": "6ed5ee5a420a967e2c154a1e135765eb",
     "url": "/project-klima/index.html"
   },
   {
-    "revision": "1c1403215dc017713858",
-    "url": "/project-klima/static/css/main.e9078bfc.chunk.css"
+    "revision": "3b592b4706d71ba65d5c",
+    "url": "/project-klima/static/css/main.76af8fb2.chunk.css"
   },
   {
-    "revision": "0f7daf32fbaae8470878",
-    "url": "/project-klima/static/js/2.6354f572.chunk.js"
+    "revision": "5c6ac55419f44073689a",
+    "url": "/project-klima/static/js/2.fc186eea.chunk.js"
   },
   {
-    "revision": "1c1403215dc017713858",
-    "url": "/project-klima/static/js/main.ce6e655f.chunk.js"
+    "revision": "3b592b4706d71ba65d5c",
+    "url": "/project-klima/static/js/main.1730c2e6.chunk.js"
   },
   {
     "revision": "25428cf814c1dc878c5a",
@@ -80,12 +80,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/project-klima/static/media/english.bfb8d30f.svg"
   },
   {
+    "revision": "87741091adce4bf74258ceb2f4eae80e",
+    "url": "/project-klima/static/media/englishFH.87741091.svg"
+  },
+  {
     "revision": "94835cb393d631b01847a71e3774fb07",
     "url": "/project-klima/static/media/forward.94835cb3.svg"
   },
   {
     "revision": "6c131c3f839ae53592ede782043e1475",
     "url": "/project-klima/static/media/german.6c131c3f.svg"
+  },
+  {
+    "revision": "a71d6d5f02d81c06db6ce141c138a28f",
+    "url": "/project-klima/static/media/germanFH.a71d6d5f.svg"
   },
   {
     "revision": "56d876bbc807956a244a1e1b40554db6",
