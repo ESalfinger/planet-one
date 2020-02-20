@@ -114,7 +114,6 @@ export function Weather() {
             {items.rain &&
             <div className = "weather-value">
               <p className = "weather-value-key">{i18n.t(k.RAIN)}</p>
-              <p>{items.rain["1h"] || items.rain["3h"]} mm</p>
               <p>{lang === "de" ? items.rain["1h"].toString().replace(".", ",") || items.rain["3h"].toString().replace(".", ",") : items.rain["1h"] || items.rain["3h"]} mm</p>
             </div>
             }
